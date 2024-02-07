@@ -1,0 +1,4536 @@
+{
+    "__type__": "Deck",
+    "children": [],
+    "crowdanki_uuid": "980b62f6-c592-11ee-b2fa-f2a0fc844426",
+    "deck_config_uuid": "4749c275-c590-11ee-a7ca-f2a0fc844426",
+    "deck_configurations": [
+        {
+            "__type__": "DeckConfig",
+            "answerAction": 0,
+            "autoplay": true,
+            "buryInterdayLearning": false,
+            "crowdanki_uuid": "4749c275-c590-11ee-a7ca-f2a0fc844426",
+            "desiredRetention": 0.9,
+            "dyn": false,
+            "fsrsWeights": [],
+            "interdayLearningMix": 0,
+            "lapse": {
+                "delays": [
+                    10.0
+                ],
+                "leechAction": 1,
+                "leechFails": 8,
+                "minInt": 1,
+                "mult": 0.0
+            },
+            "maxTaken": 60,
+            "name": "Standard",
+            "new": {
+                "bury": false,
+                "delays": [
+                    1.0,
+                    10.0
+                ],
+                "initialFactor": 2500,
+                "ints": [
+                    1,
+                    4,
+                    0
+                ],
+                "order": 1,
+                "perDay": 150
+            },
+            "newGatherPriority": 0,
+            "newMix": 0,
+            "newPerDayMinimum": 0,
+            "newSortOrder": 0,
+            "replayq": true,
+            "rev": {
+                "bury": false,
+                "ease4": 1.3,
+                "hardFactor": 1.2,
+                "ivlFct": 1.0,
+                "maxIvl": 36500,
+                "perDay": 1500
+            },
+            "reviewOrder": 0,
+            "secondsToShowAnswer": 0.0,
+            "secondsToShowQuestion": 0.0,
+            "sm2Retention": 0.9,
+            "stopTimerOnAnswer": false,
+            "timer": 0,
+            "waitForAudio": false,
+            "weightSearch": ""
+        }
+    ],
+    "desc": "",
+    "dyn": 0,
+    "extendNew": 0,
+    "extendRev": 0,
+    "media_files": [
+        "paste-07a9cc54ddbd83457fc1058313f35cee768b1a07.jpg",
+        "paste-16cbd4f265d345fd44d972926a666a845736fec2.jpg",
+        "paste-265542fb3d6af1492ece79e28048220d3ffbb919.jpg",
+        "paste-41cc9721c75407a01b034027918334c2ea919325.jpg",
+        "paste-4e39e47804106a229eb7b9c4d596ad7aa5d118ea.jpg",
+        "paste-57953a1ac8126358a800e9a80aa30bc35f89644d.jpg",
+        "paste-5a52bd9993ea1e6fb8028b421ea43fad96d4a3dc.jpg",
+        "paste-600f54fff673ce0b5aa9026570f554e54bb9c810.jpg",
+        "paste-62b25e6cacad9ad0d8a24822347c86b41577f35d.jpg",
+        "paste-6b3576d26247d259691613456741a616ef784950.jpg",
+        "paste-6f8a52b1fdd35dfba3d1409a6d53daa3d5bf221b.jpg",
+        "paste-758321b9bceae1e821f8b926222f207bc70d8302.jpg",
+        "paste-7c386e83862686f6173a83a8b3c797404357eccb.jpg",
+        "paste-7e31e6867664cc8a616c959dd88571c22af7b7a8.jpg",
+        "paste-823cdac6bfd8260cae5eb5d0f548604517474e01.jpg",
+        "paste-8e50c4a0c792d5623973e55bfcd2a0c28ca19e7f.jpg",
+        "paste-9114852e17dd5c782c2f19305b2f62014a221157.jpg",
+        "paste-918890a024260aac457b151abfeb9a56e817a093.jpg",
+        "paste-a2f791631a661a1c1f422a261566054c34bc1eee.jpg",
+        "paste-a56e49e35f006a64959bb989bf5f04f265f8d89b.jpg",
+        "paste-aba9fb7e864e89bcaf9169e48e0b173676da85e9.jpg",
+        "paste-ad42775755f1129c3add66d08308d0efca0c3b37.jpg",
+        "paste-b81f594d33f25c22255d42a40fae599c2fe1d324.jpg",
+        "paste-c52a488897dbca77b83d51eb8ed5456af7514818.jpg",
+        "paste-c564954421fd807cde8507255992f41aa61ba70b.jpg",
+        "paste-e3b53e86492e448b60f25f93407c2e4baa434492.jpg",
+        "paste-f2a94c22ee9046375e4beb28215f635ff0b7564c.jpg",
+        "paste-ff7dfa1098027358bb7f6630eca02b397e116e8f.jpg"
+    ],
+    "name": "Web Development",
+    "newLimit": null,
+    "newLimitToday": null,
+    "note_models": [
+        {
+            "__type__": "NoteModel",
+            "crowdanki_uuid": "4749fc94-c590-11ee-b2c3-f2a0fc844426",
+            "css": ".card {\n    font-family: arial;\n    font-size: 20px;\n    text-align: center;\n    color: black;\n    background-color: white;\n}\n",
+            "flds": [
+                {
+                    "collapsed": false,
+                    "description": "",
+                    "excludeFromSearch": false,
+                    "font": "Arial",
+                    "id": null,
+                    "name": "Vorderseite",
+                    "ord": 0,
+                    "plainText": false,
+                    "preventDeletion": false,
+                    "rtl": false,
+                    "size": 20,
+                    "sticky": false,
+                    "tag": null
+                },
+                {
+                    "collapsed": false,
+                    "description": "",
+                    "excludeFromSearch": false,
+                    "font": "Arial",
+                    "id": null,
+                    "name": "Rückseite",
+                    "ord": 1,
+                    "plainText": false,
+                    "preventDeletion": false,
+                    "rtl": false,
+                    "size": 20,
+                    "sticky": false,
+                    "tag": null
+                }
+            ],
+            "latexPost": "\\end{document}",
+            "latexPre": "\\documentclass[12pt]{article}\n\\special{papersize=3in,5in}\n\\usepackage[utf8]{inputenc}\n\\usepackage{amssymb,amsmath}\n\\pagestyle{empty}\n\\setlength{\\parindent}{0in}\n\\begin{document}\n",
+            "latexsvg": false,
+            "name": "Einfach",
+            "req": [
+                [
+                    0,
+                    "any",
+                    [
+                        0
+                    ]
+                ]
+            ],
+            "sortf": 0,
+            "tags": [],
+            "tmpls": [
+                {
+                    "afmt": "{{FrontSide}}\n\n<hr id=answer>\n\n{{Rückseite}}",
+                    "bafmt": "",
+                    "bfont": "",
+                    "bqfmt": "",
+                    "bsize": 0,
+                    "did": null,
+                    "id": null,
+                    "name": "Karte 1",
+                    "ord": 0,
+                    "qfmt": "{{Vorderseite}}"
+                }
+            ],
+            "type": 0
+        }
+    ],
+    "notes": [
+        {
+            "__type__": "Note",
+            "fields": [
+                "Wieso wurde das Internet entwickelt?",
+                "Erster Satelit der Sowjetunion -&gt; USA befürchten mögliche Zerstörung ihres Nachrichtensystems<br>Sie planen ein computergestuertes Netwerk, das auch bei Ausfall eines Knotens noch funktionsfähig ist"
+            ],
+            "guid": "o>[zCVesrU",
+            "note_model_uuid": "4749fc94-c590-11ee-b2c3-f2a0fc844426",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "Wann wurde die Arpa gegündet?",
+                "1958"
+            ],
+            "guid": "K_cp5~ntFi",
+            "note_model_uuid": "4749fc94-c590-11ee-b2c3-f2a0fc844426",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "Was heißt die ARPA?",
+                "Advanced Research Project Agency"
+            ],
+            "guid": "AI$gyx(Ef;",
+            "note_model_uuid": "4749fc94-c590-11ee-b2c3-f2a0fc844426",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "Wie heißt die ARPA heute?",
+                "DARPA (Defense)"
+            ],
+            "guid": "evZNxm.{%u",
+            "note_model_uuid": "4749fc94-c590-11ee-b2c3-f2a0fc844426",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "Was war das Ziel der ARPA?",
+                "Die Entwicklung eines dezentralen Computernetzwerks mit Rechnern an verschiedenen Standorten"
+            ],
+            "guid": "s}9l_Oo{xN",
+            "note_model_uuid": "4749fc94-c590-11ee-b2c3-f2a0fc844426",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "Was entstah 1968?",
+                "Das Konzept zur Paketvermittlung für Kommunikationsbotschaften<br>(Grundlage für heutige Datenkommunikation)"
+            ],
+            "guid": "KjxSJ=/E}B",
+            "note_model_uuid": "4749fc94-c590-11ee-b2c3-f2a0fc844426",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "Was setzte die ARPA 1969 um?",
+                "Verwirklichung des Projektes&nbsp;<br>Vier Knotenpunkte an den Standorten der Univeritäten<br>- Stanford<br>- Los Angeles<br>- Salt Lake City<br>- Santa Barbara"
+            ],
+            "guid": "N$B5k;~Vuw",
+            "note_model_uuid": "4749fc94-c590-11ee-b2c3-f2a0fc844426",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "Wann wurde das Email System vorgestellt?",
+                "1971"
+            ],
+            "guid": "nOL:O]7X{b",
+            "note_model_uuid": "4749fc94-c590-11ee-b2c3-f2a0fc844426",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "Von wem wurde die Email erfunden?",
+                "Ray Romlinson"
+            ],
+            "guid": "Ojf;BIpkvb",
+            "note_model_uuid": "4749fc94-c590-11ee-b2c3-f2a0fc844426",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "Wann wurde FTP erfunden?",
+                "1972"
+            ],
+            "guid": "EhX/|?3M6z",
+            "note_model_uuid": "4749fc94-c590-11ee-b2c3-f2a0fc844426",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "Was ist FTP",
+                "Ein File Transfer Protocol zur Übertragung von Dateien"
+            ],
+            "guid": "B/{Epi^X&:",
+            "note_model_uuid": "4749fc94-c590-11ee-b2c3-f2a0fc844426",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "Was wurde 1973 entwickelt?",
+                "TCP"
+            ],
+            "guid": "eQ48b(D;2*",
+            "note_model_uuid": "4749fc94-c590-11ee-b2c3-f2a0fc844426",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "Was ist TCP?",
+                "TCP ist ein Transmission Control Protocol von an andersartigen Netwerken"
+            ],
+            "guid": "v+!+Hr4B@8",
+            "note_model_uuid": "4749fc94-c590-11ee-b2c3-f2a0fc844426",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "Was passiert zwichen 1981 -1983",
+                "Die ARPAnet-Protokolle werden auf die neue Internet-Protokolle umgestellt"
+            ],
+            "guid": "fl|ky=pFHX",
+            "note_model_uuid": "4749fc94-c590-11ee-b2c3-f2a0fc844426",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "Wie verbreitet sich das Internet?",
+                "Das Internet verbreitet sich über die USA hinaus durch die Nutzung des NEtwerks von Univeritäten zum Wissensaustausch und für Forschungszwecke"
+            ],
+            "guid": "z,!cx8gTdF",
+            "note_model_uuid": "4749fc94-c590-11ee-b2c3-f2a0fc844426",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "Wann wurde DNS entwickelt",
+                "1984"
+            ],
+            "guid": "jY6_v8)xng",
+            "note_model_uuid": "4749fc94-c590-11ee-b2c3-f2a0fc844426",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "Was macht DNS",
+                "DNS (Domain Name System) um Rechner mit Namen anzusprechen"
+            ],
+            "guid": "vG5NM~7pb[",
+            "note_model_uuid": "4749fc94-c590-11ee-b2c3-f2a0fc844426",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "Wer hat das WWW erfunden?",
+                "Tim Berners-Lee"
+            ],
+            "guid": "wI$%J1hymD",
+            "note_model_uuid": "4749fc94-c590-11ee-b2c3-f2a0fc844426",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "Wann wurde der erste entwurf des www vorgestellt?",
+                "1989"
+            ],
+            "guid": "qGVFdzwkd+",
+            "note_model_uuid": "4749fc94-c590-11ee-b2c3-f2a0fc844426",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "Wann wurde das Internet für kommerzielle Nutzung veröffentlicht?",
+                "1990"
+            ],
+            "guid": "d72LN//]u@",
+            "note_model_uuid": "4749fc94-c590-11ee-b2c3-f2a0fc844426",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "Wann wird das Militärische ARPAnet ausgeschaltet?",
+                "1990"
+            ],
+            "guid": "otJN5hpY*<",
+            "note_model_uuid": "4749fc94-c590-11ee-b2c3-f2a0fc844426",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "Wieso wurde das WWW entwickelt?",
+                "Es gibt Probleme beim Datenaustausch zwischen der Französchischen und Schweizerischen Cern Standorten&nbsp;<br>-&gt; Entwurf für HTML"
+            ],
+            "guid": "g)cM6.GMzL",
+            "note_model_uuid": "4749fc94-c590-11ee-b2c3-f2a0fc844426",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "Wann wurde HTML entworfen?",
+                "1989"
+            ],
+            "guid": "<KiPHcz;2",
+            "note_model_uuid": "4749fc94-c590-11ee-b2c3-f2a0fc844426",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "Was war das WWW gedacht?",
+                "als Intranet<br>"
+            ],
+            "guid": "hab=x&/C~l",
+            "note_model_uuid": "4749fc94-c590-11ee-b2c3-f2a0fc844426",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "Wann wurde das WWW in Cern vorgestellt?",
+                "1990"
+            ],
+            "guid": "v$a|ow~4`-",
+            "note_model_uuid": "4749fc94-c590-11ee-b2c3-f2a0fc844426",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "Was entwickelte Tim Berners-Lee für das WWW",
+                "- HTTP<br>- HTML<br>- URL<br>- Ersten Web-Browser: WorldWideWeb (später Nexus)<br>- Ersten Web-Server: Cern httpd (Betriebssystem: NeXTStep)"
+            ],
+            "guid": "ykPW73ia9g",
+            "note_model_uuid": "4749fc94-c590-11ee-b2c3-f2a0fc844426",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "Wann wurde die erste Webseite erstellt?",
+                "1990"
+            ],
+            "guid": "GAN9FzKc)b",
+            "note_model_uuid": "4749fc94-c590-11ee-b2c3-f2a0fc844426",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "Wann wird das WWW Projekt öffentlich für Newsgruppen?",
+                "1991"
+            ],
+            "guid": "FW4GX8O3S5",
+            "note_model_uuid": "4749fc94-c590-11ee-b2c3-f2a0fc844426",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "Wann wird das WWW komplett öffentlich?",
+                "1993"
+            ],
+            "guid": "Nz,86n(t3R",
+            "note_model_uuid": "4749fc94-c590-11ee-b2c3-f2a0fc844426",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "Wann wird das World Wide Web Consortium gegründet?",
+                "1994"
+            ],
+            "guid": "F%`@yb&L1N",
+            "note_model_uuid": "4749fc94-c590-11ee-b2c3-f2a0fc844426",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "Was macht das World Wide Web Consortium",
+                "Es ist für die Standardisierung der Techniken im WWW"
+            ],
+            "guid": "Op9F1:kw*M",
+            "note_model_uuid": "4749fc94-c590-11ee-b2c3-f2a0fc844426",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "Wann wird der erste grafikfähige Web-Browser veröffentlicht?",
+                "1993"
+            ],
+            "guid": "g$i<|TL2.k",
+            "note_model_uuid": "4749fc94-c590-11ee-b2c3-f2a0fc844426",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "Was war der erste Web Browser",
+                "Mosaic"
+            ],
+            "guid": "vo=A|}~sb1",
+            "note_model_uuid": "4749fc94-c590-11ee-b2c3-f2a0fc844426",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "Was waren die ersten Suchmaschinen?",
+                "Lycros<br>Yahoo<br>Alta Vista<br>Google"
+            ],
+            "guid": "o^Tc$!6KHV",
+            "note_model_uuid": "4749fc94-c590-11ee-b2c3-f2a0fc844426",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "Wann war der erste Browserkrieg?",
+                "1995-1998"
+            ],
+            "guid": "eKo!2#P1Z2",
+            "note_model_uuid": "4749fc94-c590-11ee-b2c3-f2a0fc844426",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "Zwischen wem war der erste Browserkrieg?",
+                "Internet Explorer&nbsp;<br>Netscape"
+            ],
+            "guid": "cRWV*YzG<:",
+            "note_model_uuid": "4749fc94-c590-11ee-b2c3-f2a0fc844426",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "Wann war die erste Hochphase des Internets?",
+                "1997-2000"
+            ],
+            "guid": "ccL[!}QZ/y",
+            "note_model_uuid": "4749fc94-c590-11ee-b2c3-f2a0fc844426",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "Wann begann das Internet der Dinge?",
+                "1999"
+            ],
+            "guid": "l4aX+}~5GW",
+            "note_model_uuid": "4749fc94-c590-11ee-b2c3-f2a0fc844426",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "Wann beginnt die zweite Hochpahse des Webs?",
+                "Ab 2003"
+            ],
+            "guid": "H[W$4/orb6",
+            "note_model_uuid": "4749fc94-c590-11ee-b2c3-f2a0fc844426",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "Was bringt die zweite Hochpahse des Internets?",
+                "Web 2.0<br>- Interaktive webseiten + Audio-/Video-Einbindung<br>Beispiele:<br>Blogs, Wikis, Foren, soziale Netzwerke"
+            ],
+            "guid": "QAbPTIm=UK",
+            "note_model_uuid": "4749fc94-c590-11ee-b2c3-f2a0fc844426",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "Wo ist die Umsetzung des Web 2.0 möglich?",
+                "Serverseitig oder clientseitig möglich"
+            ],
+            "guid": "i%goyST!mL",
+            "note_model_uuid": "4749fc94-c590-11ee-b2c3-f2a0fc844426",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "Was beginnt ab 2004?",
+                "Der zweite Browserkrieg zwischen Internet Explorer und anderen (Chrome Firefox etc)"
+            ],
+            "guid": "h)GG::PR)/",
+            "note_model_uuid": "4749fc94-c590-11ee-b2c3-f2a0fc844426",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "Was macht HTTP?",
+                "Anfordern von Informationen von einem Webserver durch den Browser"
+            ],
+            "guid": "C0{Y0)q}=B",
+            "note_model_uuid": "4749fc94-c590-11ee-b2c3-f2a0fc844426",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "Was macht HTML",
+                "Festlegen der Informationsstruktur + der Verknüpfung von Dokumenten(Hyperlinks)"
+            ],
+            "guid": "M7+Oxo-$sn",
+            "note_model_uuid": "4749fc94-c590-11ee-b2c3-f2a0fc844426",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "Was macht URI",
+                "(Uniform Resource Identifier) als eindeutige Bezeichnung einer Resource zur Verwendung in Hyperlinks"
+            ],
+            "guid": "fzTOc_nCrc",
+            "note_model_uuid": "4749fc94-c590-11ee-b2c3-f2a0fc844426",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "Was macht CSS?",
+                "Cascading Style Sheets zur Darstellung des Inhalts (Aussehen / Design)"
+            ],
+            "guid": "nQ=N@Fok>S",
+            "note_model_uuid": "4749fc94-c590-11ee-b2c3-f2a0fc844426",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "Was macht HTTPS",
+                "Verschlüsselung des Datentransfers&nbsp;"
+            ],
+            "guid": "o5]Q+<z(kf",
+            "note_model_uuid": "4749fc94-c590-11ee-b2c3-f2a0fc844426",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "Was macht DOM",
+                "Document Object Model als Schnittstelle für externe Programme oder Skriptsprachen (JavaScript)"
+            ],
+            "guid": "C3$`6t9JI$",
+            "note_model_uuid": "4749fc94-c590-11ee-b2c3-f2a0fc844426",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "Erklärung URI",
+                "Zeichenfolge, um eine physische oder abstrakte Ressource zu identifizieren wie eine Datei"
+            ],
+            "guid": "dMX-Jmjq4y",
+            "note_model_uuid": "4749fc94-c590-11ee-b2c3-f2a0fc844426",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "Grundkonzept des URI",
+                "Zeichenfolge um eine physische oder abstrakte Resource zu Identifizieren. Z.B. Buch"
+            ],
+            "guid": "G|[Y*ATz5Q",
+            "note_model_uuid": "4749fc94-c590-11ee-b2c3-f2a0fc844426",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "URL Bild",
+                "<img src=\"paste-600f54fff673ce0b5aa9026570f554e54bb9c810.jpg\">"
+            ],
+            "guid": "o:j0d!jV$y",
+            "note_model_uuid": "4749fc94-c590-11ee-b2c3-f2a0fc844426",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "Was ist URN?",
+                "Ordnet einer Ressource dauerhaft und ortunabhöging einen eindeutigen Namen zu"
+            ],
+            "guid": "q`qF?;SO*u",
+            "note_model_uuid": "4749fc94-c590-11ee-b2c3-f2a0fc844426",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "Beispiel URN",
+                "<img src=\"paste-265542fb3d6af1492ece79e28048220d3ffbb919.jpg\">"
+            ],
+            "guid": "x9d;[k:4Oq",
+            "note_model_uuid": "4749fc94-c590-11ee-b2c3-f2a0fc844426",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "TCP/IP-Referenzmodell",
+                "<img src=\"paste-6f8a52b1fdd35dfba3d1409a6d53daa3d5bf221b.jpg\">"
+            ],
+            "guid": "y|GpM4yx|^",
+            "note_model_uuid": "4749fc94-c590-11ee-b2c3-f2a0fc844426",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "Definition HTTP",
+                "Zustandsloses Protokoll zur Regelung der Datenübertragung zwischen Anwendungen"
+            ],
+            "guid": "GJ,hdvA)!z",
+            "note_model_uuid": "4749fc94-c590-11ee-b2c3-f2a0fc844426",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "Wie erfolgt die Datenübertragung im WWW?",
+                "Mit HTTP(s) zwischen Server und Browser"
+            ],
+            "guid": "pxmy]{NU?n",
+            "note_model_uuid": "4749fc94-c590-11ee-b2c3-f2a0fc844426",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "Wie ist das HTTP aufgebaut?",
+                "Frage-Antwort-Scheme:<br>Request: Client sendet Anfrage an Server<br>Response: Server antwortet dem Client"
+            ],
+            "guid": "s0N3n8@d/b",
+            "note_model_uuid": "4749fc94-c590-11ee-b2c3-f2a0fc844426",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "HTTP Nachricht:",
+                "Jede Nachricht besteht aus <br>- Request-/Status-Line<br>- Header<br>- Body"
+            ],
+            "guid": "s[4.YTF{}]",
+            "note_model_uuid": "4749fc94-c590-11ee-b2c3-f2a0fc844426",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "Anfragemethoden: GET",
+                "Durch Request werden andere Daten als Antwort empfangen"
+            ],
+            "guid": "wQGheutBcb",
+            "note_model_uuid": "4749fc94-c590-11ee-b2c3-f2a0fc844426",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "Anfragemethoden: Post",
+                "Durch Request werden Daten am Server verändert oder zur Übermittlung von Logins (PW sonst in der URL)"
+            ],
+            "guid": "mu|TCa]|^^",
+            "note_model_uuid": "4749fc94-c590-11ee-b2c3-f2a0fc844426",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "Erklräung TCP",
+                "-&gt; Für den Datenaustausch zwischen zwei Teilenhemrn Gedacht<br>-&gt; End zu End Verbindung Vollduplex<br>"
+            ],
+            "guid": "z&CWK;0+t;",
+            "note_model_uuid": "4749fc94-c590-11ee-b2c3-f2a0fc844426",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "Erklärung Endpunkte TCP",
+                "Sind eindeutig identifiziert durch zwei Endpunkte<br>Endpunkt: Geordnetes Paar aus IP-Adressen und Port -&gt; Socket<br>"
+            ],
+            "guid": "I8JsVshv5q",
+            "note_model_uuid": "4749fc94-c590-11ee-b2c3-f2a0fc844426",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "Vorteil TCP",
+                "Es wird überprüft ob Datenverlust aufgetreten ist und wird dann direkt behoben"
+            ],
+            "guid": "pfs@Yef_E^",
+            "note_model_uuid": "4749fc94-c590-11ee-b2c3-f2a0fc844426",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "Erklärung HTTPS",
+                "HTTPS erweitert TCP auf Transportschicht<br>Wird mittels URI Schema genutzt&nbsp;<br>"
+            ],
+            "guid": "v5a@P~HGxL",
+            "note_model_uuid": "4749fc94-c590-11ee-b2c3-f2a0fc844426",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "Welche Protokolle können mit HTTPS abgesichert werden",
+                "andere unverschlüsselte Protokolle wie smtp oder imap"
+            ],
+            "guid": "z&MV2Ks,yF",
+            "note_model_uuid": "4749fc94-c590-11ee-b2c3-f2a0fc844426",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "Ziele HTTPS",
+                "Vertrauchlichkeit<br>Integrität<br>Authenzitität"
+            ],
+            "guid": "E{D+0K@3b#",
+            "note_model_uuid": "4749fc94-c590-11ee-b2c3-f2a0fc844426",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "Was bedeutet Vertraulichkeit",
+                "Verschlüsselung der Daten (Kein Mitlesen möglich)"
+            ],
+            "guid": "hw.E=]d)E&",
+            "note_model_uuid": "4749fc94-c590-11ee-b2c3-f2a0fc844426",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "Was bedeutet Integrität",
+                "Daten während Übertragung unveränderbar"
+            ],
+            "guid": "qyF+E;HbRe",
+            "note_model_uuid": "4749fc94-c590-11ee-b2c3-f2a0fc844426",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "Was bedeutet Authentizität",
+                "Kommunikationsparter über Zertifikat verifiziert"
+            ],
+            "guid": "cAEGzf@,G`",
+            "note_model_uuid": "4749fc94-c590-11ee-b2c3-f2a0fc844426",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "Erklärung IP",
+                "Verbindugslose Netzwerkprotokoll für die Internetschicht zur Vermittlung von Paketen zu einem bestimmten Rechner"
+            ],
+            "guid": "Jq?-*l{0pz",
+            "note_model_uuid": "4749fc94-c590-11ee-b2c3-f2a0fc844426",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "Wer vergibt IP Adressen",
+                "Vergabe durch IANA"
+            ],
+            "guid": "k}$g3xFX&n",
+            "note_model_uuid": "4749fc94-c590-11ee-b2c3-f2a0fc844426",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "Wie viele IPV4 Adressen gibt es?",
+                "ca 4 MRD adressen<br>"
+            ],
+            "guid": "Br[#rJwNOB",
+            "note_model_uuid": "4749fc94-c590-11ee-b2c3-f2a0fc844426",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "Nachteil IPV4",
+                "Seit 2011 waren alle Adressen vergeben"
+            ],
+            "guid": "rfuIs^IJ&.",
+            "note_model_uuid": "4749fc94-c590-11ee-b2c3-f2a0fc844426",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "Beispiel IPV4",
+                "188.184.9.235"
+            ],
+            "guid": "xDWw/p3+kO",
+            "note_model_uuid": "4749fc94-c590-11ee-b2c3-f2a0fc844426",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "Wie viele IPV6 Adressen gibt es",
+                "ca 340 Setillionen unterschiedliche Addressen"
+            ],
+            "guid": "GD9jg<i6fx",
+            "note_model_uuid": "4749fc94-c590-11ee-b2c3-f2a0fc844426",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "Vorteil IPV6",
+                "Es gibt keine Konflikte mehr, alle Geräte können eindeutig identifiziert werden"
+            ],
+            "guid": "e8Yx=*T*:f",
+            "note_model_uuid": "4749fc94-c590-11ee-b2c3-f2a0fc844426",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "Beispiel IPV6",
+                "2607:f8b0:4004:836::2003"
+            ],
+            "guid": "l>9ab$Fy0s",
+            "note_model_uuid": "4749fc94-c590-11ee-b2c3-f2a0fc844426",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "Problem IP Adressen",
+                "Menchen können sie sich schlecht merken"
+            ],
+            "guid": "oGXpLFI<hk",
+            "note_model_uuid": "4749fc94-c590-11ee-b2c3-f2a0fc844426",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "Erklärung DNS",
+                "Ermöglicht zugriff auf Webseiten durch Domains"
+            ],
+            "guid": "sw&8Ubw`JC",
+            "note_model_uuid": "4749fc94-c590-11ee-b2c3-f2a0fc844426",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "Aufgabe DNS",
+                "Beantwortung von Anfragen zur Namensauflösung (wie Telefonauskunft)"
+            ],
+            "guid": "CTa24/JReB",
+            "note_model_uuid": "4749fc94-c590-11ee-b2c3-f2a0fc844426",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "Wie funktioniert DNS?",
+                "Nutzer sendet Anfrage für Domain ins Internet z.B. example.org<br>-&gt; DNS wandelt Domain in zugehörige IP-Addresse um z.B. 192.0.32.10"
+            ],
+            "guid": "yE|~<iSv+!",
+            "note_model_uuid": "4749fc94-c590-11ee-b2c3-f2a0fc844426",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "Interne Funktion eines Nameservers",
+                "Hierarchsiche Strukturierung des Namensraums (Bauform)<br><br><img src=\"paste-ad42775755f1129c3add66d08308d0efca0c3b37.jpg\">"
+            ],
+            "guid": "dNSJj&UM]e",
+            "note_model_uuid": "4749fc94-c590-11ee-b2c3-f2a0fc844426",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "Was war das Problem in den 80ern bei Webseiten",
+                "Ascii-kodierte Texte sollten zur bessere Weiterverabrbeitung Metainfos enthalten"
+            ],
+            "guid": "tRr?2b4k`R",
+            "note_model_uuid": "4749fc94-c590-11ee-b2c3-f2a0fc844426",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "Wie sollten Metainfos in ASCII kodierten Texten gespeichert werden?",
+                "<ul><li>Softwäre unabhänging</li><li>Einfach</li><li>Migrationsfähig</li></ul>"
+            ],
+            "guid": "GgG-po{feq",
+            "note_model_uuid": "4749fc94-c590-11ee-b2c3-f2a0fc844426",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "Was war das Ziel für ASCII-kodierte Texte in den 80ern?",
+                "Strukturierung von Dokumenten + medienneutrale Speicherung<br>-&gt; definierte, allgemeine bekannte Syntax nötig"
+            ],
+            "guid": "ekZK32FmdC",
+            "note_model_uuid": "4749fc94-c590-11ee-b2c3-f2a0fc844426",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "Was ist eine Allgemeine Auszeichnungssprache, die Regeln zur Strukturierung festlegt",
+                "SGML"
+            ],
+            "guid": "uG%rc@j/w$",
+            "note_model_uuid": "4749fc94-c590-11ee-b2c3-f2a0fc844426",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "Was zeichnet SGML aus?",
+                "Metasprache zur Definition von Auzeichnunssprachen<br>Strikte Trennung von Struktur und Layout<br>DTD (Document Type Definition) beschreibt strukturellen Aufbau des Dokuments, Parser prüft"
+            ],
+            "guid": "w%B|I84UJ=",
+            "note_model_uuid": "4749fc94-c590-11ee-b2c3-f2a0fc844426",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "SGML Beispiel",
+                "<img src=\"paste-6b3576d26247d259691613456741a616ef784950.jpg\"><br><br><img src=\"paste-ff7dfa1098027358bb7f6630eca02b397e116e8f.jpg\">"
+            ],
+            "guid": "e_>jFCdnKf",
+            "note_model_uuid": "4749fc94-c590-11ee-b2c3-f2a0fc844426",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "Wo findet SGML anwendung?",
+                "Bei kodierung von großen Datenmengen wie Luftfahrt oder Militär<br>HTML&nbsp;<br>TEI"
+            ],
+            "guid": "D~iUB#=KKT",
+            "note_model_uuid": "4749fc94-c590-11ee-b2c3-f2a0fc844426",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "Bis zu welcher Version wurde SGML für HTML verwendet",
+                "HTML 4"
+            ],
+            "guid": "KFx@L;/*Dr",
+            "note_model_uuid": "4749fc94-c590-11ee-b2c3-f2a0fc844426",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "Für was steht TEI",
+                "(Text Encoding Initiative) Dokuemntformat zur Kodierung und für den Austausch&nbsp; von Texten"
+            ],
+            "guid": "Le1Ti~J:gD",
+            "note_model_uuid": "4749fc94-c590-11ee-b2c3-f2a0fc844426",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "Was wird in HTML strikt getrennt?",
+                "Inhalt<br>Design"
+            ],
+            "guid": "AuYJL!6hp@",
+            "note_model_uuid": "4749fc94-c590-11ee-b2c3-f2a0fc844426",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "Was für eine Aufgabe fällt den Webbrwosern bei HTML zu",
+                "Die Interpreation der Bedeutung (Überschrift groß und fett)"
+            ],
+            "guid": "vnu)sZwp.1",
+            "note_model_uuid": "4749fc94-c590-11ee-b2c3-f2a0fc844426",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "Was muss beim schreiben von HTML beachtet werden",
+                "Quelltext ist formatfrei<br>-&gt; Formatierung im Editor ohne Bedeutung (Zeilenumbrüche, Leerzeichen)"
+            ],
+            "guid": "RbaSm6OF1#",
+            "note_model_uuid": "4749fc94-c590-11ee-b2c3-f2a0fc844426",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "Aufbau HTML Tag",
+                "Meist Tag-Paar aus &lt;starttag&gt;content&lt;/endtag&gt;<br>oder Inhaltsleere Tags (&lt;br&gt;)"
+            ],
+            "guid": "t?K^4pt(ik",
+            "note_model_uuid": "4749fc94-c590-11ee-b2c3-f2a0fc844426",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "Was können Tags noch beinhalten",
+                "Eine Liste von Attributen"
+            ],
+            "guid": "P:<y>[}Px|",
+            "note_model_uuid": "4749fc94-c590-11ee-b2c3-f2a0fc844426",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "Wie kann man tags anordnen?",
+                "Verschachtelt&nbsp;<br>&lt;p&gt; test &lt;strong&gt;kuchen&lt;/strong&gt;&lt;/p&gt;"
+            ],
+            "guid": "z{7IgeG+X{",
+            "note_model_uuid": "4749fc94-c590-11ee-b2c3-f2a0fc844426",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "Wie kann man HTML bearbeiten?",
+                "mit belibigen Texteditoren"
+            ],
+            "guid": "D.c|FOSoAR",
+            "note_model_uuid": "4749fc94-c590-11ee-b2c3-f2a0fc844426",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "Wieso wurde das WHATWG gegrüdnet",
+                "Es war eine Reaktion auf die Langsame entwicklung von W3C"
+            ],
+            "guid": "sT+A5[zcKl",
+            "note_model_uuid": "4749fc94-c590-11ee-b2c3-f2a0fc844426",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "Welche Firmen sind in WHATWG",
+                "Mozilla, Opera, Apple"
+            ],
+            "guid": "rz9K}::aeP",
+            "note_model_uuid": "4749fc94-c590-11ee-b2c3-f2a0fc844426",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "Wann wurde die HTML-Urversion veröffentlicht?",
+                "1992"
+            ],
+            "guid": "M0Tr`qAjZ6",
+            "note_model_uuid": "4749fc94-c590-11ee-b2c3-f2a0fc844426",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "Wann kam HTML 2.0 raus",
+                "1995"
+            ],
+            "guid": "C<c!v@]E/a",
+            "note_model_uuid": "4749fc94-c590-11ee-b2c3-f2a0fc844426",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "Was passierte mit HTML während des Browserkrieges",
+                "Es wurden Design Elemente wie Blink (text flackert) in HTML von den einzelnen Browsern integriert was nicht sein sollte"
+            ],
+            "guid": "NwDnt:C.az",
+            "note_model_uuid": "4749fc94-c590-11ee-b2c3-f2a0fc844426",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "Wann wurde HTML 4.01 veröffentlicht",
+                "1999"
+            ],
+            "guid": "Mk<nn0CD~^",
+            "note_model_uuid": "4749fc94-c590-11ee-b2c3-f2a0fc844426",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "Neuerung HTML 4.01",
+                "Design Elemente werden nicht mehr unterstützt (blink etc)"
+            ],
+            "guid": "C/<X0Z~ocK",
+            "note_model_uuid": "4749fc94-c590-11ee-b2c3-f2a0fc844426",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "Aktuelle HTML Version + Jahr der Veröffentlichung",
+                "HTML 5.2 (2017)"
+            ],
+            "guid": "I&2/91pK/6",
+            "note_model_uuid": "4749fc94-c590-11ee-b2c3-f2a0fc844426",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "Was ist XHTML?",
+                "<div>&nbsp;bei Fehlern im Code wird im gegensatz zu html\nnicht einfach interpretiert</div>\n<div>Bei code\nFehlern wird einfach nichts angezeigt&nbsp;</div>"
+            ],
+            "guid": "bvXh<|9p3s",
+            "note_model_uuid": "4749fc94-c590-11ee-b2c3-f2a0fc844426",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "Neue Funktionen von HTML5",
+                "<ul><li>Video</li><li>Audio</li><li>lokaler Speicher</li><li>dynamische 2 und 3D Grafik</li></ul>"
+            ],
+            "guid": "MzHAkm%9m)",
+            "note_model_uuid": "4749fc94-c590-11ee-b2c3-f2a0fc844426",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "Was wurde bei HTML 5 überarbeitet",
+                "die DOM Spezifikation"
+            ],
+            "guid": "NCq+0W!V5>",
+            "note_model_uuid": "4749fc94-c590-11ee-b2c3-f2a0fc844426",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "Was wurde in HTML 5 erstmals definiert",
+                "HTML-Parser (keine Anwendung von SGML mehr)"
+            ],
+            "guid": "h;t:K3lZ[n",
+            "note_model_uuid": "4749fc94-c590-11ee-b2c3-f2a0fc844426",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "Was bringt der HTML Parser",
+                "Abweichung zur Fehlerkompensation -&gt; Definition von eigenen Algorithmen mit Fehlerkorrektur<br>keine unterschiedliche Interpretation mehr"
+            ],
+            "guid": "m6X,,YOk)t",
+            "note_model_uuid": "4749fc94-c590-11ee-b2c3-f2a0fc844426",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "HTML 5 neue Struktur Elemente",
+                "<ul><li>Nav (Navigation)</li><li>header</li><li>footer</li><li>section</li><li>article</li><li>aside</li></ul>"
+            ],
+            "guid": "s0,mCOf?!4",
+            "note_model_uuid": "4749fc94-c590-11ee-b2c3-f2a0fc844426",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "HTML 5 neue Gruppierung / interaktive Elemente",
+                "<ul><li>figger +figcaption</li><li>summary + details</li></ul><div>(Elemente auf bzw Zuklappen ohne JavaScript)</div>"
+            ],
+            "guid": "n(!PlPg9Gc",
+            "note_model_uuid": "4749fc94-c590-11ee-b2c3-f2a0fc844426",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "Neue Einbindungsmöglichkeiten HTML",
+                "audio,video, embed"
+            ],
+            "guid": "j=&T6mq[~(",
+            "note_model_uuid": "4749fc94-c590-11ee-b2c3-f2a0fc844426",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "Neue Formularelemente in HTML5",
+                "Input-Types erweitert, datalist, output, progress, Telefunnummer, Mail Addresse, Datum, Zeit"
+            ],
+            "guid": "h$j:Y;RJO;",
+            "note_model_uuid": "4749fc94-c590-11ee-b2c3-f2a0fc844426",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "Was hat HTML5 der Web Entwicklung gebracht?",
+                "Die Entwicklung wurde effizienter, fexibler und benuzerfreundlicher"
+            ],
+            "guid": "OMTLHKDLW1",
+            "note_model_uuid": "4749fc94-c590-11ee-b2c3-f2a0fc844426",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "Aufbau DocType?",
+                "&lt;!DOCTYPE html&gt;<br>"
+            ],
+            "guid": "iV0Q9pU%K[",
+            "note_model_uuid": "4749fc94-c590-11ee-b2c3-f2a0fc844426",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "Für was steht die html in DocType?",
+                "für HTML5&nbsp;<br>möglich auch andere Versionen anzugeben aber unnötig"
+            ],
+            "guid": "M%upSuBSEo",
+            "note_model_uuid": "4749fc94-c590-11ee-b2c3-f2a0fc844426",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "HTML5 Head Aufbau",
+                "<ul><li>Titel der Seite (verpflichtend) &lt;title&gt; Title&lt;/title&gt;</li><li>&lt;meta&gt;-- Tags mit Zusatzinformationen über die Seite (z.B. Suchmaschinen)</li><li>Verlinkte Ressourcen (Fonts, Style)</li><li>Skripte (JavaScript) (nicht unbedingt immer)</li></ul>"
+            ],
+            "guid": "n]},w2gxA^",
+            "note_model_uuid": "4749fc94-c590-11ee-b2c3-f2a0fc844426",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "Was macht der Viewport?",
+                "Am Handy kann es passieren, das Webseiten nicht richtig dargestellt werden, falls dieser tag fehlt<br><br><div><div>&lt;meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\"&gt;</div></div>"
+            ],
+            "guid": "xP`ed1<E4N",
+            "note_model_uuid": "4749fc94-c590-11ee-b2c3-f2a0fc844426",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "Für was wurden MEta Daten verwendet?",
+                "<div>\n<div>\n<div>\n<div>Wird bzw wurde sehr\nstark missbraucht um höher im Ranking zu sein</div>\n<div>Deswegen ist es\ninzwischen für die Suchmaschinen relativ egal</div>\n<div>Wird noch als\nDescription in Google verwendet</div>\n</div>\n</div></div>"
+            ],
+            "guid": "Bbx8QG0=A#",
+            "note_model_uuid": "4749fc94-c590-11ee-b2c3-f2a0fc844426",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "Was können Meta-Elemente enthalten?",
+                "<ul><li>zusatzangaben (zum Parsen der Datei)</li><li>Optional und beliebig viel nutzbar</li><li>http Befehle (automatische Weiterleitung)</li><li>Datenpflege</li></ul>"
+            ],
+            "guid": "p8J[zyKb&-",
+            "note_model_uuid": "4749fc94-c590-11ee-b2c3-f2a0fc844426",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "Welcher Zeichensatz wird verwendet in HTML",
+                "Mann kann den Zeichensatz im Header oder im Webserver einstellen.<br>Die einstellung des Webservers wird übernommen falls sich der Zeichensatz im Header unterscheidet"
+            ],
+            "guid": "Dvjp*2Sc`f",
+            "note_model_uuid": "4749fc94-c590-11ee-b2c3-f2a0fc844426",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "Basic HTML-Elemente: Überschriften",
+                "h1-h6"
+            ],
+            "guid": "Hi5NN|5Q2}",
+            "note_model_uuid": "4749fc94-c590-11ee-b2c3-f2a0fc844426",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "Basic HTML-Elemente: Textabsatz",
+                "&lt;p&gt;&lt;/p&gt;"
+            ],
+            "guid": "P>E!~+<};t",
+            "note_model_uuid": "4749fc94-c590-11ee-b2c3-f2a0fc844426",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "Basic HTML-Elemente: Links",
+                "&lt;a href=\"\"&gt;Index&lt;/a&gt;"
+            ],
+            "guid": "J/QILO(<gx",
+            "note_model_uuid": "4749fc94-c590-11ee-b2c3-f2a0fc844426",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "Basic HTML-Element: On Page Link",
+                "href =\"#kontakt\""
+            ],
+            "guid": "o~9Pc/AL!S",
+            "note_model_uuid": "4749fc94-c590-11ee-b2c3-f2a0fc844426",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "Basic HTML-Element: Attrirubt target",
+                "Neue Seite: target=\"_blank\"<br>Aktuelle Seite: target=\"_self\""
+            ],
+            "guid": "u|YLs7FB]d",
+            "note_model_uuid": "4749fc94-c590-11ee-b2c3-f2a0fc844426",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "Basic HTML-Element: Bilder",
+                "&lt;img src=\"logo.png\" alt=\"Logo der Firma XY\"&gt;"
+            ],
+            "guid": "kc:NH>a?8Z",
+            "note_model_uuid": "4749fc94-c590-11ee-b2c3-f2a0fc844426",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "Basic HTML-Element: Listen Geordnet",
+                "&lt;ol&gt;&lt;li&gt;Punkt 1&lt;/li&gt;&lt;li&gt;Punkt 2&lt;/li&gt;"
+            ],
+            "guid": "i$R/&V|Q]r",
+            "note_model_uuid": "4749fc94-c590-11ee-b2c3-f2a0fc844426",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "Basic HTML-Element: Listen nicht geordent",
+                "&lt;ul&gt;&lt;li&gt;ABC&lt;/li&gt;"
+            ],
+            "guid": "Aj}m)DZ=dy",
+            "note_model_uuid": "4749fc94-c590-11ee-b2c3-f2a0fc844426",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "Basic HTML-Element: Betonter Text",
+                "&lt;strong&gt;&lt;/strong&gt;"
+            ],
+            "guid": "F|vx+FOJKF",
+            "note_model_uuid": "4749fc94-c590-11ee-b2c3-f2a0fc844426",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "Basic HTML-Element: Fett",
+                "&lt;b&gt;"
+            ],
+            "guid": "N+%u|)f&6*",
+            "note_model_uuid": "4749fc94-c590-11ee-b2c3-f2a0fc844426",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "Basic HTML-Element: Kursiv",
+                "&lt;i&gt;&lt;/i&gt;"
+            ],
+            "guid": "vRW{To*9<=",
+            "note_model_uuid": "4749fc94-c590-11ee-b2c3-f2a0fc844426",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "Basic HTML-Element: Text Unterstreichen",
+                "&lt;u&gt;&lt;/u&gt;"
+            ],
+            "guid": "LTk41rYgN}",
+            "note_model_uuid": "4749fc94-c590-11ee-b2c3-f2a0fc844426",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "Basic HTML-Element: Zeilenumbruch",
+                "&lt;br&gt;"
+            ],
+            "guid": "M{1n]^1yV]",
+            "note_model_uuid": "4749fc94-c590-11ee-b2c3-f2a0fc844426",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "Basic HTML-Element: Horizontale Linie",
+                "&lt;hr&gt;"
+            ],
+            "guid": "vV6aiD[?iW",
+            "note_model_uuid": "4749fc94-c590-11ee-b2c3-f2a0fc844426",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "Basic HTML-Element: Container + Vorteile",
+                "&lt;div&gt;&lt;/div&gt;<br><ul><li>Startet immer neue Zeile</li><li>nutzt gesamte verfügbare Breite</li><li>Unsichtbarer Rahmen, um Elemente im Container Eigenschaften zuzuordnen</li></ul>"
+            ],
+            "guid": "dKa,tVd,UD",
+            "note_model_uuid": "4749fc94-c590-11ee-b2c3-f2a0fc844426",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "Basic HTML-Element: Inline Container + Vorteile",
+                "&lt;span&gt;&lt;/span&gt;<br><ul><li>Macht keine neue Zeile</li><li>nutzt minimal notwendigen Platz</li></ul><div>BSP:</div><div>&lt;p&gt; Ich mag Kuchen &lt;span&gt;Kuchen!&lt;/span&gt; Punkt. &lt;/p&gt;</div>"
+            ],
+            "guid": "Id+(wiB<.[",
+            "note_model_uuid": "4749fc94-c590-11ee-b2c3-f2a0fc844426",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "Für was werden Container verwendet",
+                "zum Stylen -&gt; mittels CSS"
+            ],
+            "guid": "n:R2UK-(t@",
+            "note_model_uuid": "4749fc94-c590-11ee-b2c3-f2a0fc844426",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "Regeln Klassen und IDs",
+                "<ul><li>ID darf nur einmal auf der Seite vorkommen</li><li>Klassen können mehrfach verwendet werden</li><li>Attribute class bzw. id für nahezu jedes HTML-Element möglich</li><li>Elemente können mehrere Klassen haben /Trennung mittels Leerzeichen)</li></ul>"
+            ],
+            "guid": "l,@lS|f0ub",
+            "note_model_uuid": "4749fc94-c590-11ee-b2c3-f2a0fc844426",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "Für was sind Ungeordnete Listen?",
+                "Für stichpunktartie Aufzählungen"
+            ],
+            "guid": "km/oi~I-r.",
+            "note_model_uuid": "4749fc94-c590-11ee-b2c3-f2a0fc844426",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "Für was sind Geordnete Listen?",
+                "Für nummerierte Aufzählungen"
+            ],
+            "guid": "pv]f+aLwOe",
+            "note_model_uuid": "4749fc94-c590-11ee-b2c3-f2a0fc844426",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "Wann werden div-Elemente verwendet",
+                "<ul><li>Oft benutzt um Seite in logische Blöcke einzuteilen -&gt; Gruppierung</li></ul>"
+            ],
+            "guid": "xfZDW!]mJh",
+            "note_model_uuid": "4749fc94-c590-11ee-b2c3-f2a0fc844426",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "Was können divs einschließen",
+                "Text, Bilder, Tabellen, andere divs etc. einschließen"
+            ],
+            "guid": "ek=33T2Qz[",
+            "note_model_uuid": "4749fc94-c590-11ee-b2c3-f2a0fc844426",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "Wo wird span eingesetzt",
+                "Innerhalb eines Paragraphs zur Hervorhebung eines Textteils eingesetzt werden<br>"
+            ],
+            "guid": "Ezl,#T[2o8",
+            "note_model_uuid": "4749fc94-c590-11ee-b2c3-f2a0fc844426",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "Wie werden Tabellen definiert?",
+                "<ul><li>&lt;table&gt; (Tabelle)</li><li>&lt;tr&gt; (Zeile)</li><li>&lt;td&gt; (Zelle)</li></ul>"
+            ],
+            "guid": "ILhViTZbaE",
+            "note_model_uuid": "4749fc94-c590-11ee-b2c3-f2a0fc844426",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "Tabelle: Zeilen über mehrere Spalten",
+                "colspan&nbsp;"
+            ],
+            "guid": "y1jwIO~E[j",
+            "note_model_uuid": "4749fc94-c590-11ee-b2c3-f2a0fc844426",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "Tabelle: Zellen über mehrere Zeilen",
+                "rowspan"
+            ],
+            "guid": "OwmfNy>uO;",
+            "note_model_uuid": "4749fc94-c590-11ee-b2c3-f2a0fc844426",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "Tabelle: Wie viele Caption?",
+                "<div>1</div>"
+            ],
+            "guid": "MgsarOVG`E",
+            "note_model_uuid": "4749fc94-c590-11ee-b2c3-f2a0fc844426",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "Tabelle: Was macht eine Caption?",
+                "Überschrift der Tabelle"
+            ],
+            "guid": "z<+%r[_O5-",
+            "note_model_uuid": "4749fc94-c590-11ee-b2c3-f2a0fc844426",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "Table: Wie viele Colgroups, Gruppen von Spalten",
+                "Beliebig"
+            ],
+            "guid": "dfZxY~n~]P",
+            "note_model_uuid": "4749fc94-c590-11ee-b2c3-f2a0fc844426",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "Table: Wie Kopfzeile der Tabelle",
+                "thead"
+            ],
+            "guid": "Gch9)~LLKq",
+            "note_model_uuid": "4749fc94-c590-11ee-b2c3-f2a0fc844426",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "Table: Fußzeile der Tabelle",
+                "tfoot"
+            ],
+            "guid": "u-{v,RtGo&",
+            "note_model_uuid": "4749fc94-c590-11ee-b2c3-f2a0fc844426",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "Für was gibt es Formulare",
+                "Zur Eingabe von Daten mittels Element &lt;form&gt;...&lt;/form&gt;"
+            ],
+            "guid": "z)p1gXr&uu",
+            "note_model_uuid": "4749fc94-c590-11ee-b2c3-f2a0fc844426",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "Was enthalten Formulare?",
+                "<ul><li>Eingabefelder</li><li>Labels zur Beschriftung</li><li>Buttons zur Verwaltung der Daten</li></ul>"
+            ],
+            "guid": "NSw%KDh@s#",
+            "note_model_uuid": "4749fc94-c590-11ee-b2c3-f2a0fc844426",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "Aufbau Formular",
+                "<ul><li>Name ist Variablenname des Eingabefelds, das Browser sendet</li><li>Typ kann Art der einzugebeben Daten festlegen</li><li>ID ist eindeutiger Identifier für Element</li></ul>"
+            ],
+            "guid": "U^K9%F_^.",
+            "note_model_uuid": "4749fc94-c590-11ee-b2c3-f2a0fc844426",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "Formular Beispiel",
+                "<img src=\"paste-7c386e83862686f6173a83a8b3c797404357eccb.jpg\">"
+            ],
+            "guid": "JGMs2(h;B1",
+            "note_model_uuid": "4749fc94-c590-11ee-b2c3-f2a0fc844426",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "Standart-Verhalten beim Absenden eines Formulares",
+                "Seite wird neu geladen"
+            ],
+            "guid": "eUiuT#|6zo",
+            "note_model_uuid": "4749fc94-c590-11ee-b2c3-f2a0fc844426",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "Wo stehen standartmäßig die Formulardaten",
+                "in der selben URL per Get-Methode"
+            ],
+            "guid": "q2U*4/h_z*",
+            "note_model_uuid": "4749fc94-c590-11ee-b2c3-f2a0fc844426",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "Was sind semantische divs?",
+                "<ul><li>Nav</li><li>Header</li><li>Footer</li><li>Main</li><li>Article</li><li>Section</li><li>Aside</li></ul>"
+            ],
+            "guid": "FP*I~0B:ot",
+            "note_model_uuid": "4749fc94-c590-11ee-b2c3-f2a0fc844426",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "Was sind die Vorteile von semantischen divs?",
+                "<ul><li>Übersicht durch die Namen</li><li>Hilft Suchmaschinen bei Auswertung des Inhalts</li><li>Hilft Screenreadern beim flüssigen Vorlesen</li></ul>"
+            ],
+            "guid": "Cj},MA(Sv%",
+            "note_model_uuid": "4749fc94-c590-11ee-b2c3-f2a0fc844426",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "Was enthält das Header semantische div?",
+                "Kopfbereich der Seite<br>z.B. Logo, Titel, Suche, Navigationselemente"
+            ],
+            "guid": "dgg[K~~GQG",
+            "note_model_uuid": "4749fc94-c590-11ee-b2c3-f2a0fc844426",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "Was enthält das Footer Dynamische Div?",
+                "<ul><li>Kontakt</li><li>Impressum</li><li>Copyright</li><li>Sitemap ....</li></ul>"
+            ],
+            "guid": "xN00uCQ4?H",
+            "note_model_uuid": "4749fc94-c590-11ee-b2c3-f2a0fc844426",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "Wo befinden sich Footer Elemente?",
+                "<ul><li>unten</li><li>rechts (bei Blogs)</li></ul>"
+            ],
+            "guid": "Oe3Cp:PJ}",
+            "note_model_uuid": "4749fc94-c590-11ee-b2c3-f2a0fc844426",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "Was enthalten Nav divs?",
+                "Liste aus Navigationspunkten"
+            ],
+            "guid": "DyvL/-tet@",
+            "note_model_uuid": "4749fc94-c590-11ee-b2c3-f2a0fc844426",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "Was enthalten Main divs?",
+                "Strukturierten Content (Überschriften und Textabsätze)"
+            ],
+            "guid": "uSA:]yyeVP",
+            "note_model_uuid": "4749fc94-c590-11ee-b2c3-f2a0fc844426",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "Was enthält ein Article div?",
+                "<ul><li>Enthält Überschriften und Abschnitte</li><li>Kann durch Header oder Sections gegliedert sein</li></ul>"
+            ],
+            "guid": "rK29vS~$uG",
+            "note_model_uuid": "4749fc94-c590-11ee-b2c3-f2a0fc844426",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "<div>Was enthält ein Section div</div>",
+                "Ist ein Abschnitt wie ein Kapitel"
+            ],
+            "guid": "v/c>^VpYnG",
+            "note_model_uuid": "4749fc94-c590-11ee-b2c3-f2a0fc844426",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "Was beinhaltet ein Aside div?",
+                "<ul><li>Enthält Informationen, die zum Inhalt gehören, sind aber kein Teil des Inhalts</li><li>Randnotizen wie Kontakt oder weiterführende Links</li></ul>"
+            ],
+            "guid": "Veh=.KW_F",
+            "note_model_uuid": "4749fc94-c590-11ee-b2c3-f2a0fc844426",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "Was ist CSS?",
+                "Stylesheet-Sprache zum Erstellen von Gestaltungsanweisungen vom W3C"
+            ],
+            "guid": "nmH#&VA@V7",
+            "note_model_uuid": "4749fc94-c590-11ee-b2c3-f2a0fc844426",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "Seit wann ist CSS3 in Entwicklung?",
+                "2000"
+            ],
+            "guid": "MkLI}V@cO[",
+            "note_model_uuid": "4749fc94-c590-11ee-b2c3-f2a0fc844426",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "Wie ist CSS3 Aufgebaut",
+                "modular"
+            ],
+            "guid": "j3)~PkB=k,",
+            "note_model_uuid": "4749fc94-c590-11ee-b2c3-f2a0fc844426",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "Wird es ein CSS4 geben?",
+                "Laut W3C nein"
+            ],
+            "guid": "q-F13/!,bm",
+            "note_model_uuid": "4749fc94-c590-11ee-b2c3-f2a0fc844426",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "Was sind die Möglichkeiten von CSS?",
+                "<ul><li>Einfache Anweisungen</li><li>Animationen</li><li>Komplexe Layouts</li><li>Media Queries</li></ul>"
+            ],
+            "guid": "GU,[T7$ul<",
+            "note_model_uuid": "4749fc94-c590-11ee-b2c3-f2a0fc844426",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "Was sind einfache Anweisungen in CSS",
+                "<ul><li>Farben</li><li>&nbsp;Größen</li><li>Alignment</li><li>etc</li></ul>"
+            ],
+            "guid": "Q4sD;!v83{",
+            "note_model_uuid": "4749fc94-c590-11ee-b2c3-f2a0fc844426",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "Was sind komplexe Layouts in CSS?",
+                "<ul><li>Flow Layout</li><li>Grid Layout</li><li>Flexbox</li></ul>"
+            ],
+            "guid": "M2lD|]Fxnl",
+            "note_model_uuid": "4749fc94-c590-11ee-b2c3-f2a0fc844426",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "Was sind Media Queries in CSS",
+                "verschiedene Darstellungen für unterschiedliche Ausgabemedien"
+            ],
+            "guid": "Jw#d>>I#O(",
+            "note_model_uuid": "4749fc94-c590-11ee-b2c3-f2a0fc844426",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "Wie gib man Identifieres in CSS an",
+                "<ul><li>Klassen mit Punkt</li><li>IDs mit Raute</li><li>Elemente mit Namen</li></ul>"
+            ],
+            "guid": "qC%-;Q,|m%",
+            "note_model_uuid": "4749fc94-c590-11ee-b2c3-f2a0fc844426",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "Beispiel CSS Aufruf für Klasse",
+                ".teaser für class=\"teaser\""
+            ],
+            "guid": "Q(~k+(!vYp",
+            "note_model_uuid": "4749fc94-c590-11ee-b2c3-f2a0fc844426",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "Beispiel CSS Aufruf für ID",
+                "#headline für id=\"headline\""
+            ],
+            "guid": "Ca!ES6V{)Y",
+            "note_model_uuid": "4749fc94-c590-11ee-b2c3-f2a0fc844426",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "Beispiel für CSS Aufruf aller Elemente",
+                "p"
+            ],
+            "guid": "FZ].MsNf5h",
+            "note_model_uuid": "4749fc94-c590-11ee-b2c3-f2a0fc844426",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "CSS Syntax Beispiel",
+                "<img src=\"paste-7e31e6867664cc8a616c959dd88571c22af7b7a8.jpg\">"
+            ],
+            "guid": "3+a3(s6E*",
+            "note_model_uuid": "4749fc94-c590-11ee-b2c3-f2a0fc844426",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "Wie funktioniert das Klassische Box Modell in CSS?",
+                "Gesamtbreite = margin + boarder + padding + with"
+            ],
+            "guid": "BYdF2P@K//",
+            "note_model_uuid": "4749fc94-c590-11ee-b2c3-f2a0fc844426",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "Wie funktioniert das Moderne Box Web-Design?",
+                "Eigenschaft box-sizing lässt spezifizieren, worauf sich die Angaben von width und heigt beziehen sollen&nbsp;"
+            ],
+            "guid": "oX#{K?u.^f",
+            "note_model_uuid": "4749fc94-c590-11ee-b2c3-f2a0fc844426",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "Was für alternativen gibt es zum Box Design?",
+                "<ul><li>Grid</li><li>Flexbox</li></ul>"
+            ],
+            "guid": "hQweP1<sxJ",
+            "note_model_uuid": "4749fc94-c590-11ee-b2c3-f2a0fc844426",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "CSS Properties: Hintergrundfarbe eines Elements",
+                "background-color"
+            ],
+            "guid": "kgGjk@%J_Y",
+            "note_model_uuid": "4749fc94-c590-11ee-b2c3-f2a0fc844426",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "CSS Properties: Verwendete Schriftfamilie",
+                "font-family"
+            ],
+            "guid": "I/Oa+9,-ck",
+            "note_model_uuid": "4749fc94-c590-11ee-b2c3-f2a0fc844426",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "Standart Web Font",
+                "sans-serif"
+            ],
+            "guid": "F40NqLZZGx",
+            "note_model_uuid": "4749fc94-c590-11ee-b2c3-f2a0fc844426",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "CSS Properties: Verwendete Schriftgröße",
+                "font-size"
+            ],
+            "guid": "l}{>m?L:,R",
+            "note_model_uuid": "4749fc94-c590-11ee-b2c3-f2a0fc844426",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "CSS Properties: Verschiede Eingeschaften für den Rand",
+                "border"
+            ],
+            "guid": "A<;M%&-W7",
+            "note_model_uuid": "4749fc94-c590-11ee-b2c3-f2a0fc844426",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "CSS Properties: Verschiedene Eigenschaften für Abstände",
+                "<ul><li>padding</li><li>margin&nbsp;</li></ul>"
+            ],
+            "guid": "BgICu@7R|k",
+            "note_model_uuid": "4749fc94-c590-11ee-b2c3-f2a0fc844426",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "Was für CSS Eigenschaften gibt es für den Rand?",
+                "<ul><li>width</li><li>style</li><li>color</li></ul>"
+            ],
+            "guid": "F$7KTGB3VZ",
+            "note_model_uuid": "4749fc94-c590-11ee-b2c3-f2a0fc844426",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "Wie bindet man Stylesheets in HTML ein?",
+                "Über ein externes, verlinktes Stylesheet"
+            ],
+            "guid": "Aq4;r1$noO",
+            "note_model_uuid": "4749fc94-c590-11ee-b2c3-f2a0fc844426",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "Beispiel externet Stylesheet einbindung",
+                "&lt;ling rel=\"stylesheet\" href\"mystyle.css\"&gt;"
+            ],
+            "guid": "v^ws.gWQ*+",
+            "note_model_uuid": "4749fc94-c590-11ee-b2c3-f2a0fc844426",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "Was bedeutet Responsiveness?",
+                "Paradigmen zur Erstellung von Webseiten für beste Bedienbarkeit auf verschiedenen Endgeräten"
+            ],
+            "guid": "MQm|>AVv0:",
+            "note_model_uuid": "4749fc94-c590-11ee-b2c3-f2a0fc844426",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "Wie erreicht man Responsiveness?",
+                "<ul><li>setzen des Viewports im HTML</li><li>Media Querris in CSS</li></ul>"
+            ],
+            "guid": "A=7oD_KWyO",
+            "note_model_uuid": "4749fc94-c590-11ee-b2c3-f2a0fc844426",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "Beispiel Media Querries",
+                "@media only screen and (min-width:768px){...}"
+            ],
+            "guid": "I3a~xu;W?@",
+            "note_model_uuid": "4749fc94-c590-11ee-b2c3-f2a0fc844426",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "Wie funktionieren Media Queries?",
+                "Sie definieren Breakpoints für die Änderung eines Layouts"
+            ],
+            "guid": "k7;$~)7q+V",
+            "note_model_uuid": "4749fc94-c590-11ee-b2c3-f2a0fc844426",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "Welche Medientypen gibt es in Media Queries?",
+                "<ul><li>screen</li><li>print</li><li>all</li></ul>"
+            ],
+            "guid": "ng{%2a1ul[",
+            "note_model_uuid": "4749fc94-c590-11ee-b2c3-f2a0fc844426",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "welche Medienmerkmale gibt es?",
+                "<ul><li>width</li><li>aspect-ratio</li><li>orientation</li><li>resolution</li></ul>"
+            ],
+            "guid": "OGqk[ybUwD",
+            "note_model_uuid": "4749fc94-c590-11ee-b2c3-f2a0fc844426",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "Media Querries weitere Besipiele",
+                "<ul><li>@media (min-width: 720px)</li><li>@media only screen and (min-width:768px)</li></ul>"
+            ],
+            "guid": "EU{f#Os>{_",
+            "note_model_uuid": "4749fc94-c590-11ee-b2c3-f2a0fc844426",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "Media Querries HTML Beispiel",
+                "<img src=\"paste-16cbd4f265d345fd44d972926a666a845736fec2.jpg\">"
+            ],
+            "guid": "pqUsMVQga@",
+            "note_model_uuid": "4749fc94-c590-11ee-b2c3-f2a0fc844426",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "Welche Herangehensweisen gibt es zur optimierung für unterschiedliche Auflösungen?",
+                "<img src=\"paste-f2a94c22ee9046375e4beb28215f635ff0b7564c.jpg\">"
+            ],
+            "guid": "nX8TihKJ0C",
+            "note_model_uuid": "4749fc94-c590-11ee-b2c3-f2a0fc844426",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "Wie funktioniert das Adaptive Layout?",
+                "<ul><li>Ausgabegeräte stehen im Vordergrund</li><li>Erstellung von starren Layouts (meist mit Pixelwerten) für wenige exakt definierte Viewports</li><li>Via Media Querries wird mittels Breakpoints auf Layout für jeweilige Aiflösung verwiesen</li></ul>"
+            ],
+            "guid": "D1mAu,!Dk9",
+            "note_model_uuid": "4749fc94-c590-11ee-b2c3-f2a0fc844426",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "Nachteile Adaptive Layout&nbsp;",
+                "<ul><li>Entspricht Anzeige exakt dem Viewport: perfekte Optik</li><li>Verwendung des nächstbesten Viewports kann zu unpassenden Ansichten führen (verschenkter Platz oder Laden der falschen Ansicht)</li></ul>"
+            ],
+            "guid": "D}fOHUAZ}Z",
+            "note_model_uuid": "4749fc94-c590-11ee-b2c3-f2a0fc844426",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "Vorteile Adaptive Layout",
+                "<ul><li>Leicht zu konzipieren</li><li>Technisch nicht sehr aufwändig</li></ul>"
+            ],
+            "guid": "Ak!R[Nr8k",
+            "note_model_uuid": "4749fc94-c590-11ee-b2c3-f2a0fc844426",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "Wie funktionieren Responsiv Layouts?",
+                "<ul><li>Informationsaufbereitung im Vordergrund</li><li>Optimierung der Seite für jedes mögliche Gerät</li></ul>"
+            ],
+            "guid": "cn3<)AW7ks",
+            "note_model_uuid": "4749fc94-c590-11ee-b2c3-f2a0fc844426",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "Responsive&nbsp;",
+                "= reagierend<br><ul><li>Webseite passt sich felxibel an verschiedene Größen an</li><li>gute Bedienbarkeit auf jedem Gerät und in jeder EInstellung</li></ul>"
+            ],
+            "guid": "wg7xSYz[?e",
+            "note_model_uuid": "4749fc94-c590-11ee-b2c3-f2a0fc844426",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "Wie wird ein Responsive Layout erstellt?",
+                "<ul><li>Angabe von relativen Größen für Elemente /Abstände</li><li>Definition von eher mehreren, aber unaufwändigeren Breakpoints&nbsp;</li><li>z.B: Menü zuklappen, wenn schmaler als x</li></ul>"
+            ],
+            "guid": "GC;xG>[<:u",
+            "note_model_uuid": "4749fc94-c590-11ee-b2c3-f2a0fc844426",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "Wie werden Zwischengrößen unterstützt?",
+                "Durch flexible und relative Skalierungen /Größen"
+            ],
+            "guid": "tX>PKWaRxc",
+            "note_model_uuid": "4749fc94-c590-11ee-b2c3-f2a0fc844426",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "Responsive Layout Vorteile",
+                "<ul><li>Jede Display und Fenstergöße optimal unterstützt&nbsp;</li><li>Etwaige unbekannte Zwischengrößen automatisch mit abgedeckt</li></ul>"
+            ],
+            "guid": "N|&BISrStd",
+            "note_model_uuid": "4749fc94-c590-11ee-b2c3-f2a0fc844426",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "Responsive Layout Nachteile",
+                "<ul><li>Wireframs nicht für alle Zwischengrößen möglich</li><li>Komplexer in Gestalung, da Layout-Programme oft noch pixelbasiert</li><li>Komplexer in der Umsetzung</li></ul>"
+            ],
+            "guid": "HF|IOI|Ef4",
+            "note_model_uuid": "4749fc94-c590-11ee-b2c3-f2a0fc844426",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "Was heißt RESS?",
+                "Responsive Desing und Server Side Components"
+            ],
+            "guid": "g@KmX1W9[%",
+            "note_model_uuid": "4749fc94-c590-11ee-b2c3-f2a0fc844426",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "Wie funktioniert RESS?",
+                "Pattern zur serverseitigen Anpassung des responsiven Designs zur Steigerung von Leistung und Effizienz"
+            ],
+            "guid": "N5JFt0}b#}",
+            "note_model_uuid": "4749fc94-c590-11ee-b2c3-f2a0fc844426",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "Wo wird normalerweiße das responsve Layout Angepasst?",
+                "Auf Client Seite"
+            ],
+            "guid": "D9ZY]6UtYM",
+            "note_model_uuid": "4749fc94-c590-11ee-b2c3-f2a0fc844426",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "Wie funktioniert die Kominkation bei RESS?",
+                "<ul><li>Senden des Requests mit Angaben der Displaygröße (small, medium, large)</li><li>Server kann entsprechend reagieren</li></ul>"
+            ],
+            "guid": "r9/:i:iA]@",
+            "note_model_uuid": "4749fc94-c590-11ee-b2c3-f2a0fc844426",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "Responsive Layout: Bildgröße je naach Displaygröße",
+                "<ul><li>Server sendet Bild immer in größter Auflösung&nbsp;</li></ul>"
+            ],
+            "guid": "u)V:5#AAd=",
+            "note_model_uuid": "4749fc94-c590-11ee-b2c3-f2a0fc844426",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "Ress Anpassung der Bildgröße je nach Displaygröße",
+                "Server sendet Bild in der zur Displaygröße passenden Auflösung<br>"
+            ],
+            "guid": "Hb,6wPr4fY",
+            "note_model_uuid": "4749fc94-c590-11ee-b2c3-f2a0fc844426",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "Vorteile RESS",
+                "<ul><li>schnellere Ladezeiten</li><li>weniger Traffic</li></ul>"
+            ],
+            "guid": "e^_D>*I8S[",
+            "note_model_uuid": "4749fc94-c590-11ee-b2c3-f2a0fc844426",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "Wie funktioniert der FLow Layout?",
+                "<ul><li>Elemente werden gemäß ihrer Reihenfolge im HTML-Dokument positioniert</li><li>Inline-Elemente von links nach rechts</li><li>Blockelemente untereinander gestapelt</li></ul>"
+            ],
+            "guid": "BWa$?WOn2t",
+            "note_model_uuid": "4749fc94-c590-11ee-b2c3-f2a0fc844426",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "Vorteile FLow Layout",
+                "Gut für einfache Strukturen"
+            ],
+            "guid": "wO#+srktiZ",
+            "note_model_uuid": "4749fc94-c590-11ee-b2c3-f2a0fc844426",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "Nachteile&nbsp;FLow Layout",
+                "Wenig präzise Kontrolle über die Positionierung"
+            ],
+            "guid": "glUB|FD{&6",
+            "note_model_uuid": "4749fc94-c590-11ee-b2c3-f2a0fc844426",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "Wie funktionieren Flexboxen?",
+                "<ul><li>Modernes, flexibles Layout</li><li>Einfache Ausrichtung, Andordnung und Verteilung von Elementen innerhalb eines Containers</li></ul>"
+            ],
+            "guid": "M@KOa8+eC&",
+            "note_model_uuid": "4749fc94-c590-11ee-b2c3-f2a0fc844426",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "Beispiel Flexlayout",
+                "<img src=\"paste-9114852e17dd5c782c2f19305b2f62014a221157.jpg\"><br><img src=\"paste-5a52bd9993ea1e6fb8028b421ea43fad96d4a3dc.jpg\">"
+            ],
+            "guid": "hu=.].dU&K",
+            "note_model_uuid": "4749fc94-c590-11ee-b2c3-f2a0fc844426",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "Wie funktioniert ein Grid Layout?",
+                "<ul><li>Leistungsstarkes Layout, um Inhalte in einer zweidimensionalen Rasterstruktur anzuordnen</li><li>Präzise Positionierung von Elementen sowohl in Zeilen als auch in Spalten</li></ul>"
+            ],
+            "guid": "jyFFoWE+0m",
+            "note_model_uuid": "4749fc94-c590-11ee-b2c3-f2a0fc844426",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "Vorteile Flexbox",
+                "<ul><li>Gut für eindimensionale Layouts&nbsp;</li></ul>"
+            ],
+            "guid": "c`8b9uz1:b",
+            "note_model_uuid": "4749fc94-c590-11ee-b2c3-f2a0fc844426",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "Vorteile Grid Layout",
+                "<ul><li>Gut für komplexe Layouts, bei denen eine genaue Kontrolle über die Positionierung erforderlich ist</li></ul>"
+            ],
+            "guid": "u2x;vWpP|l",
+            "note_model_uuid": "4749fc94-c590-11ee-b2c3-f2a0fc844426",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "Was machen Transformationen?",
+                "Sie können Objekte zwei- oder dreidimensional verändern"
+            ],
+            "guid": "Dtb4nnI?q;",
+            "note_model_uuid": "4749fc94-c590-11ee-b2c3-f2a0fc844426",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "Was machen Animationen",
+                "einem Zustand in einen anderen übergehen durch Änderung von Properties"
+            ],
+            "guid": "kx9kd*we]Q",
+            "note_model_uuid": "4749fc94-c590-11ee-b2c3-f2a0fc844426",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "Wie nennt man Klassen, IDS in CSS?",
+                "Selectors"
+            ],
+            "guid": "tH*SbMR7>O",
+            "note_model_uuid": "4749fc94-c590-11ee-b2c3-f2a0fc844426",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "Was gehört zur Vorbereitung in der Webentwicklung?",
+                "<ul><li>Analyse</li><li>Grobentwurf</li></ul>"
+            ],
+            "guid": "A^QN|S+1.n",
+            "note_model_uuid": "4749fc94-c590-11ee-b2c3-f2a0fc844426",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "Was gehört zur Konzeption in der Webentwicklung?",
+                "<ul><li>Design</li><li>Content</li><li>Technik</li></ul>"
+            ],
+            "guid": "uj^y=GrF?^",
+            "note_model_uuid": "4749fc94-c590-11ee-b2c3-f2a0fc844426",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "Was gehört zur Realisierung in der Webentwicklung?",
+                "<ul><li>Implementierung</li><li>Testing</li><li>(Re-)Launch</li></ul>"
+            ],
+            "guid": "LDW@`UFjty",
+            "note_model_uuid": "4749fc94-c590-11ee-b2c3-f2a0fc844426",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "Was gehört zur Analyse?",
+                "<ul><li>Offene Fragen klären</li><li>Anforderungen definieren</li><li>Rahmenbedingungen abstecken</li><li>Wettbewerber vergleichen</li></ul>"
+            ],
+            "guid": "I?,6]celI!",
+            "note_model_uuid": "4749fc94-c590-11ee-b2c3-f2a0fc844426",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "Welche Anforderungen müssen definiert werden?",
+                "<ul><li>Ziele</li><li>Zielgruppen</li><li>Personas</li><li>Funktionen</li><li>Wirkung</li></ul>"
+            ],
+            "guid": "qbu_Y$|RXw",
+            "note_model_uuid": "4749fc94-c590-11ee-b2c3-f2a0fc844426",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "Was gehört zu den Rahmenbedingungen?",
+                "<ul><li>Setting</li><li>Zeitrahmen</li><li>Budget</li></ul>"
+            ],
+            "guid": "zv;]!LG=!8",
+            "note_model_uuid": "4749fc94-c590-11ee-b2c3-f2a0fc844426",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "Was gehört dazu wenn man Wettbewerber vergleicht",
+                "<ul><li>Abgrenzung</li><li>Hervorhebung</li></ul>"
+            ],
+            "guid": "f/g;^fnK~l",
+            "note_model_uuid": "4749fc94-c590-11ee-b2c3-f2a0fc844426",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "Was muss bei beim Grobentwurf beachtet werden?",
+                "<ul><li>Navigationsstruktur überlegen</li><li>Anforderungen an Design, Content und Technik festlegen</li></ul>"
+            ],
+            "guid": "vfk#QXR,g}",
+            "note_model_uuid": "4749fc94-c590-11ee-b2c3-f2a0fc844426",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "Wie formuliert man Ziele?",
+                "<ul><li>Ziel(e) kennen und diskutieren</li><li>Mittels SMART-Methode klar definierte und greifbare Ziele setzen</li></ul>"
+            ],
+            "guid": "vE}]jDGX0",
+            "note_model_uuid": "4749fc94-c590-11ee-b2c3-f2a0fc844426",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "Was ist die SMART-Methode?",
+                "<ul><li>Spezifisch</li><li>Messbar</li><li>Attraktiv</li><li>Realistisch</li><li>Terminiert</li></ul>"
+            ],
+            "guid": "QD/PTL$cdB",
+            "note_model_uuid": "4749fc94-c590-11ee-b2c3-f2a0fc844426",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "SMART: Spezifisch",
+                "<ul><li>Ist das Ziel konkret formuliert</li><li>Ist es zu breit / zu vage?</li></ul>"
+            ],
+            "guid": "CT@S2JZi}E",
+            "note_model_uuid": "4749fc94-c590-11ee-b2c3-f2a0fc844426",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "SMART: Messbar",
+                "<ul><li>Kann die Zielerreichung gemessen werden?</li><li>Ist ein Fortschritt erkennbar?</li></ul>"
+            ],
+            "guid": "uZkM|/5m4+",
+            "note_model_uuid": "4749fc94-c590-11ee-b2c3-f2a0fc844426",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "SMART: Attraktiv",
+                "<ul><li>Warum genau dieses Ziel?</li><li>Was ist zu tun?</li><li>Ist das Ziel weder zu einfach noch zu schwierig?</li></ul>"
+            ],
+            "guid": "x|!(ZHt~A&",
+            "note_model_uuid": "4749fc94-c590-11ee-b2c3-f2a0fc844426",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "SMART: Realistisch",
+                "<ul><li>Ist das Ziel erreichbar (vorgegeben Zeit / gegebenen Budget)</li></ul>"
+            ],
+            "guid": "P2cx}l=X4Q",
+            "note_model_uuid": "4749fc94-c590-11ee-b2c3-f2a0fc844426",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "SMART: Terminiert",
+                "<ul><li>Ist ein Zeitraum festgelegt</li><li>Ist ein Ende definiert</li></ul>"
+            ],
+            "guid": "eiMq$yS%fP",
+            "note_model_uuid": "4749fc94-c590-11ee-b2c3-f2a0fc844426",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "Wie könnte man dieses Ziel verbessern?&nbsp;<br>Wir möchten eine neue Webseite (Malermeister)",
+                "In den nächsten 2 Monaten sol eine neue Webseite erstellt werden, auf der Leistungen und Firmengeschichte dargestellt werden. Die Umsetzung soll duch Web-Agentur MOINMEISTER mittels WordPRess erfolgen (Budget: 1000 Euro). Die monatlichen Ausgaben sollen 15 Euro nicht übersteigen. Die Leistungen sollen gezielt Kunden aus der Region ansprechen. Wir möchten 10 Neukunden pro Monat generiern. Die Kontaktaufnahme soll via Formular und Telefon erfolgen"
+            ],
+            "guid": "uj-<#$o4Y.",
+            "note_model_uuid": "4749fc94-c590-11ee-b2c3-f2a0fc844426",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "Wie könnte man dieses Ziel verbessern?<br>Wir möchten bei Google besser auffindbar sein",
+                "In den nächsten 6 Monaten mit dem Begriff \"Malermeister Heidenheim\" unter den ersten 5 Treffern der Google-Suche gelistet sein"
+            ],
+            "guid": "f>/=2IWN@m",
+            "note_model_uuid": "4749fc94-c590-11ee-b2c3-f2a0fc844426",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "Wie könnte man dieses Ziel verbessern?&nbsp;<br>Wir möchten möglichst viele Besucher",
+                "Innerhalb eines halben Jahres pro Tag 1000 Besucher"
+            ],
+            "guid": "CR,qb:Rr-|",
+            "note_model_uuid": "4749fc94-c590-11ee-b2c3-f2a0fc844426",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "Was sind die Ziele von Zielgruppen/Personas?",
+                "<ul><li>Die Perspektive und Erwartung der Nutzer verstehen</li><li>Webseite auf die Nutzer anpassen</li></ul>"
+            ],
+            "guid": "Hi7Qad`Ab(",
+            "note_model_uuid": "4749fc94-c590-11ee-b2c3-f2a0fc844426",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "Was sind Zielgruppen?",
+                "Sie definieren die anzusprechenden Nutzer abstrakt"
+            ],
+            "guid": "J&66O2I89,",
+            "note_model_uuid": "4749fc94-c590-11ee-b2c3-f2a0fc844426",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "Was sind Personas?",
+                "Stellen konkrete, fiktive Personen innerhalb der Zielgruppe dar"
+            ],
+            "guid": "O$d_IWk5FL",
+            "note_model_uuid": "4749fc94-c590-11ee-b2c3-f2a0fc844426",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "Was sind Beispiele für Anpassungen auf der Seite durch Zielgruppen?",
+                "<ul><li>Aussehen</li><li>Funktionen</li><li>Erklärungen</li></ul>"
+            ],
+            "guid": "JP?F8EyFIs",
+            "note_model_uuid": "4749fc94-c590-11ee-b2c3-f2a0fc844426",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "Zu was dienen Personas?",
+                "<ul><li>Einzelne Nutzer greifbar machen</li><li>Hineindenken in den Nutzer</li><li>Aufdecken von Ideen aus Nutzersicht (nicht Auftraggeber)</li></ul>"
+            ],
+            "guid": "CE<B.8#QZ1",
+            "note_model_uuid": "4749fc94-c590-11ee-b2c3-f2a0fc844426",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "Was für Zielgruppen hat ein Online Shop?",
+                "<ul><li>Zielkäufer</li><li>Bummler</li><li>Schnäpchenjäger</li><li>Markenfetischist</li></ul>"
+            ],
+            "guid": "E!LBBa,Vfo",
+            "note_model_uuid": "4749fc94-c590-11ee-b2c3-f2a0fc844426",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "Wie könnten Personas aussehen?",
+                "<img src=\"paste-aba9fb7e864e89bcaf9169e48e0b173676da85e9.jpg\">"
+            ],
+            "guid": "u2:<c!|k~G",
+            "note_model_uuid": "4749fc94-c590-11ee-b2c3-f2a0fc844426",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "Ausführlicheres Beispiel Personas",
+                "<img src=\"paste-62b25e6cacad9ad0d8a24822347c86b41577f35d.jpg\">"
+            ],
+            "guid": "E)pI#k8=X",
+            "note_model_uuid": "4749fc94-c590-11ee-b2c3-f2a0fc844426",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "Wie funktioniert die Konkurenzanalyse?",
+                "<ul><li>Wie treten Wettbewerber auf?</li><li>Welches Design benutzen sie</li><li>Welche Inhalte werden wie präsentiert</li><li>Welche Funktionalität wird angeboten</li><li>Wie ist die technische Umsetzung?</li></ul>"
+            ],
+            "guid": "Qb5EK}H3a5",
+            "note_model_uuid": "4749fc94-c590-11ee-b2c3-f2a0fc844426",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "Zu was dient die Konkurenzanalyse?",
+                "<ul><li>Inspiration</li><li>Abgrenzung</li><li>Hervorhebung</li></ul>"
+            ],
+            "guid": "I/#q+<xyAo",
+            "note_model_uuid": "4749fc94-c590-11ee-b2c3-f2a0fc844426",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "Was sind die Ziele der Wettbewerbsanalyse?",
+                "<ul><li>Schwachpunkte der Konkurenz erkennen + selbst verbessern</li><li>Bewusst Gegensätze schaffen</li><li>Anregungen finden</li></ul>"
+            ],
+            "guid": "mPgm+_to3P",
+            "note_model_uuid": "4749fc94-c590-11ee-b2c3-f2a0fc844426",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "Was macht man zusätzlich bei Wettbewerbsanalyse neben der Konkurenzanalyse",
+                "<div>Es werden vergleichbare Webseiten analysiert ohne direkten Wettbewerb</div>"
+            ],
+            "guid": "Q*3{qu@-9b",
+            "note_model_uuid": "4749fc94-c590-11ee-b2c3-f2a0fc844426",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "Welche vergleichbaren Webseiten analysiert man bei der Wettbewerbsanalyse?",
+                "<ul><li>Ähnliche Branche, ähnliche Funktion, ähnliche Inhalt</li><li>Indirekte Konkurenz: überregional /international</li></ul>"
+            ],
+            "guid": "Ad1Ww)k@.]",
+            "note_model_uuid": "4749fc94-c590-11ee-b2c3-f2a0fc844426",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "Was macht man bei der Konzeption einer Webseite?",
+                "<ul><li>Technik</li><li>Content</li><li>Design</li></ul>"
+            ],
+            "guid": "y;:C43KLS#",
+            "note_model_uuid": "4749fc94-c590-11ee-b2c3-f2a0fc844426",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "Was wird in der Konzeptionsphase bei der Technik gemacht?",
+                "<ul><li>Definition der verwendeten Umgebung</li><li>Definition der gewünschten Features</li></ul>"
+            ],
+            "guid": "yY:rH4F:GA",
+            "note_model_uuid": "4749fc94-c590-11ee-b2c3-f2a0fc844426",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "Was wird bei der Definition der verwendeten Umgebung gemacht?",
+                "<ul><li>CMS und ggf Plugins</li><li>Frontend-Frameworks und Bibliotheken</li><li>Framework und Sprache fürs Backend</li></ul>"
+            ],
+            "guid": "xo>Iw;;ADs",
+            "note_model_uuid": "4749fc94-c590-11ee-b2c3-f2a0fc844426",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "Was für CMS Systeme gibt es?",
+                "<ul><li>WordPRess</li><li>Joomla</li></ul>"
+            ],
+            "guid": "NmNx9{+28C",
+            "note_model_uuid": "4749fc94-c590-11ee-b2c3-f2a0fc844426",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "Was für Plugins gibt es auf Webseiten?",
+                "<ul><li>Benutzerverwaltung</li></ul>"
+            ],
+            "guid": "A_CXFDB[V(",
+            "note_model_uuid": "4749fc94-c590-11ee-b2c3-f2a0fc844426",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "Was für Frontend-Frameworks gibt es?",
+                "<ul><li>React</li><li>Angular</li></ul>"
+            ],
+            "guid": "O6-6yW>3a+",
+            "note_model_uuid": "4749fc94-c590-11ee-b2c3-f2a0fc844426",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "Was für Framework und SPrachen fürs Backend gibt es?",
+                "<ul><li>PHO</li><li>Node.js</li><li>ASP.NET</li></ul>"
+            ],
+            "guid": "Pg.mTz8AYj",
+            "note_model_uuid": "4749fc94-c590-11ee-b2c3-f2a0fc844426",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "Was für Features gibt es auf einer Webseite?",
+                "<ul><li>Interaktion</li><li>Information</li><li>Skalierbarkeit</li></ul>"
+            ],
+            "guid": "A&N2Y.VC&^",
+            "note_model_uuid": "4749fc94-c590-11ee-b2c3-f2a0fc844426",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "Was versteht man unter Interaktions Features?",
+                "<ul><li>Kontaktformular</li><li>Shop</li><li>Forum</li></ul>"
+            ],
+            "guid": "j/E$4_Cmb-",
+            "note_model_uuid": "4749fc94-c590-11ee-b2c3-f2a0fc844426",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "Was versteht man unter Information Features?",
+                "<ul><li>Downlaods</li><li>Bildergalerie</li><li>Suche</li></ul>"
+            ],
+            "guid": "zM@BTl%6Qb",
+            "note_model_uuid": "4749fc94-c590-11ee-b2c3-f2a0fc844426",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "Was versteht man unter Skalierbarkeit Features?",
+                "<ul><li>Responsivness</li><li>Barrierefreiheit</li><li>Mehrsprachigkeit</li></ul>"
+            ],
+            "guid": "FG^AhuL__G",
+            "note_model_uuid": "4749fc94-c590-11ee-b2c3-f2a0fc844426",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "Was macht bei der Konzeption mit dem Content?",
+                "<ul><li>Definition des Inhaltsarten</li><li>Organisation der Inhalte</li><li>Erstellung einer vorläufigen Sitemap</li></ul>"
+            ],
+            "guid": "C}*O(-.@SA",
+            "note_model_uuid": "4749fc94-c590-11ee-b2c3-f2a0fc844426",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "Was gehört bei der Konzeption zu den Inhaltsarten",
+                "<ul><li>Texte</li><li>Bilder</li><li>Videos</li></ul>"
+            ],
+            "guid": "Mw<+^}&lc0",
+            "note_model_uuid": "4749fc94-c590-11ee-b2c3-f2a0fc844426",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "Was gehört zu der Organisation der Inhalte?",
+                "<ul><li>Auftteilung auf mehrere Seiten</li><li>Strukturierung innerhalb einer Seite</li></ul>"
+            ],
+            "guid": "Mf=#SjHjhv",
+            "note_model_uuid": "4749fc94-c590-11ee-b2c3-f2a0fc844426",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "Was gehört zu einer vorläufigen Sitemap?",
+                "Haupt und Unterpunkte"
+            ],
+            "guid": "pZ}VRXmhzW",
+            "note_model_uuid": "4749fc94-c590-11ee-b2c3-f2a0fc844426",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "Was wird in der Konzeption beim Design gemacht?",
+                "<ul><li>Berschreibung der Wirkung</li><li>Festlegen von Regeln</li><li>Annordung durch Layout und Raster</li><li>Entwurf eines ersten Designs für verschiedene Seiten</li></ul>"
+            ],
+            "guid": "A/BD3y)u2m",
+            "note_model_uuid": "4749fc94-c590-11ee-b2c3-f2a0fc844426",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "WIe wird die BEschreibung der Wirkung gemacht?",
+                "Moodboard"
+            ],
+            "guid": "IU7iOtQ-TN",
+            "note_model_uuid": "4749fc94-c590-11ee-b2c3-f2a0fc844426",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "Wo legt man Regeln zum Design fest",
+                "<ul><li>Styletile</li><li>Styleguide</li></ul>"
+            ],
+            "guid": "vEMSoPbKj/",
+            "note_model_uuid": "4749fc94-c590-11ee-b2c3-f2a0fc844426",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "Wie legt man die Anordung durch Layouts und Raster fest?",
+                "Wireframes<br>"
+            ],
+            "guid": "d34GP#3Gn?",
+            "note_model_uuid": "4749fc94-c590-11ee-b2c3-f2a0fc844426",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "Welches Werkzeug verwendent man um ein Entwurfs Design zu erstellen?",
+                "Mock-ups oder Klickdummy"
+            ],
+            "guid": "r<$C!T@k/i",
+            "note_model_uuid": "4749fc94-c590-11ee-b2c3-f2a0fc844426",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "Ablaufg eines Gestaltungsprozesses",
+                "<ul><li>Skizze</li><li>Moodboard</li><li>Wireframes</li><li>Styletile/Guide</li><li>Mock-uos</li><li>Prototyp</li></ul>"
+            ],
+            "guid": "c=h[]5ym&9",
+            "note_model_uuid": "4749fc94-c590-11ee-b2c3-f2a0fc844426",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "Was sind Skizzen?",
+                "<ul><li>Einfache Zeichnung</li><li>Zeigt grobes Konzept</li></ul>"
+            ],
+            "guid": "x.peeI-K8,",
+            "note_model_uuid": "4749fc94-c590-11ee-b2c3-f2a0fc844426",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "Vorteile Skizzen",
+                "<ul><li>Geringer Aufwand</li><li>Kostengünstig</li><li>Schnell</li></ul>"
+            ],
+            "guid": "Fsp)35Bw7i",
+            "note_model_uuid": "4749fc94-c590-11ee-b2c3-f2a0fc844426",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "Was steht im Zentrum von Moodboards?",
+                "<ul><li>Stimmung</li><li>Optische Eindrücke</li><li>Zusammenspiel</li></ul>"
+            ],
+            "guid": "cGb?{)R24B",
+            "note_model_uuid": "4749fc94-c590-11ee-b2c3-f2a0fc844426",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "Was sind Moodboars für eine Sammlung?",
+                "<ul><li>Farbpaletten</li><li>Fotos/Grafiken/Icons</li><li>Typografie</li><li>Screenshots</li></ul>"
+            ],
+            "guid": "v?-q23/`Zt",
+            "note_model_uuid": "4749fc94-c590-11ee-b2c3-f2a0fc844426",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "Was sind Wireframes?",
+                "<ul><li>Zeigen frühe konzeptionellen Entwürfe</li><li>Vereinfache Darstellung</li></ul>"
+            ],
+            "guid": "H![3`fF$>a",
+            "note_model_uuid": "4749fc94-c590-11ee-b2c3-f2a0fc844426",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "Vorteile Wireframes",
+                "<ul><li>schneller umsetzbar als richtige Designs</li><li>Holzwege können frph erkannt werden</li></ul>"
+            ],
+            "guid": "Q2l`t)!#[r",
+            "note_model_uuid": "4749fc94-c590-11ee-b2c3-f2a0fc844426",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "Was zeigen Wireframes?",
+                "<ul><li>Struktur des Inhalts und der Navigation</li><li>Anordnung und Positionierung der Elemente</li></ul>"
+            ],
+            "guid": "Q?<3njA+:C",
+            "note_model_uuid": "4749fc94-c590-11ee-b2c3-f2a0fc844426",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "Wie ist die Darstellung in Wireframes?",
+                "<ul><li>Keine Faarben, Bilder, Typografie</li><li>In der Regel schwarz/weiß</li></ul>"
+            ],
+            "guid": "uGN=WtZiJD",
+            "note_model_uuid": "4749fc94-c590-11ee-b2c3-f2a0fc844426",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "Beispiel Wireframes",
+                "<img src=\"paste-c52a488897dbca77b83d51eb8ed5456af7514818.jpg\">"
+            ],
+            "guid": "qcj:B-]R$P",
+            "note_model_uuid": "4749fc94-c590-11ee-b2c3-f2a0fc844426",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "Was machen Styletile?",
+                "<ul><li>Konkretisierung des Moodboards</li><li>Verdeutlichung der visuellen Sprache ohne aufwändig-detailliertes UI-Design</li><li>Kann Cirporate Design aufgreifen</li></ul>"
+            ],
+            "guid": "GU#=<=@;u:",
+            "note_model_uuid": "4749fc94-c590-11ee-b2c3-f2a0fc844426",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "Was ist der Inhalt von Styletile?",
+                "<ul><li>Konkrete Vorschläge für Buttons, Überschriften, Links, Paragrafen</li><li>Farbpalette, Typografie</li></ul>"
+            ],
+            "guid": "fz|ZV(r4P.",
+            "note_model_uuid": "4749fc94-c590-11ee-b2c3-f2a0fc844426",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "Was enthält ein Styleguid?",
+                "<ul><li>Alle gestalterischen Elemente des Corporate Designs</li><li>Richtlinie für alle Marketing-Maßnahmen und Produktentwicklungen</li></ul>"
+            ],
+            "guid": "bpYy2YJ1D*",
+            "note_model_uuid": "4749fc94-c590-11ee-b2c3-f2a0fc844426",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "Beispiel Styletile",
+                "<img src=\"paste-41cc9721c75407a01b034027918334c2ea919325.jpg\">"
+            ],
+            "guid": "y^42O-T{IM",
+            "note_model_uuid": "4749fc94-c590-11ee-b2c3-f2a0fc844426",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "Was sind Mock-ups?",
+                "<ul><li>Erweiterung der Wireframes um Informationen aus Styleguide</li></ul>"
+            ],
+            "guid": "P@`<>VaUvv",
+            "note_model_uuid": "4749fc94-c590-11ee-b2c3-f2a0fc844426",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "Was enthalten Mock-Ups?",
+                "<ul><li>Wireframes mit Design</li><li>Bilden soöteres Design möglichst genau ab</li></ul>"
+            ],
+            "guid": "PxmTs&&y0f",
+            "note_model_uuid": "4749fc94-c590-11ee-b2c3-f2a0fc844426",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "Wie erstellt man ein Mock-UP",
+                "<ul><li>Zuweisung des im Styletile vorgegenene Designs</li><li>Einbindung von konkreten Bildern</li></ul>"
+            ],
+            "guid": "eozA.ZCOv6",
+            "note_model_uuid": "4749fc94-c590-11ee-b2c3-f2a0fc844426",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "Was ist ein Klickdummy?",
+                "<ul><li>Simulation einer Webseite vor finaler Umsetzung</li></ul>"
+            ],
+            "guid": "vZg[cS@@[p",
+            "note_model_uuid": "4749fc94-c590-11ee-b2c3-f2a0fc844426",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "Was beinhaltet ein Klickdummy?",
+                "<ul><li>Miteinander verbundene Einzelseiten zur Simulation des User Flows</li><li>Bildet System oder ausgewählte Teile ab</li><li>Zeigt Integrationsmöglichkeiten</li><li>Meist mehrere Iterationen zur Optimierung</li></ul>"
+            ],
+            "guid": "En(:#l[X)=",
+            "note_model_uuid": "4749fc94-c590-11ee-b2c3-f2a0fc844426",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "Welche Schwerpunkte hat ein Prototyp",
+                "<ul><li>Visuell</li><li>Technisch</li></ul>"
+            ],
+            "guid": "M)?|sb-ug{",
+            "note_model_uuid": "4749fc94-c590-11ee-b2c3-f2a0fc844426",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "Was macht der Visuelle Schwerpunkt",
+                "<ul><li>UX</li><li>UI</li></ul>"
+            ],
+            "guid": "pBv^h:(DR6",
+            "note_model_uuid": "4749fc94-c590-11ee-b2c3-f2a0fc844426",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "Was ist das UI bei einem visuellen Schwerpunkt?",
+                "Eindruck gewinnen"
+            ],
+            "guid": "J(3ifvJX&:",
+            "note_model_uuid": "4749fc94-c590-11ee-b2c3-f2a0fc844426",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "Was macht man mit dem UX bei einem Protoypen?",
+                "testen"
+            ],
+            "guid": "umDznqp8d$",
+            "note_model_uuid": "4749fc94-c590-11ee-b2c3-f2a0fc844426",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "Schwerpunkt Technisch Prototyp",
+                "Funktionsweise -&gt; Umssetzbarkeit der Anforderungen verifizieren"
+            ],
+            "guid": "m/O<l*Y;*!",
+            "note_model_uuid": "4749fc94-c590-11ee-b2c3-f2a0fc844426",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "Was für Qualitätsstufen bei einem Protoyp?",
+                "<ul><li>Papier</li><li>Low Fidelity</li><li>High Fidelity</li></ul>"
+            ],
+            "guid": "nYXpy|&Gbu",
+            "note_model_uuid": "4749fc94-c590-11ee-b2c3-f2a0fc844426",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "Prototyp Qualitätsstufe Papier",
+                "<ul><li>grob, günstig, ausgeschnittene Elemente</li><li>Interaktion durch Anordnung der Elemente</li></ul>"
+            ],
+            "guid": "bi%Kfb&SsB",
+            "note_model_uuid": "4749fc94-c590-11ee-b2c3-f2a0fc844426",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "Prototyp Qualitätsstufe Low Fidelity",
+                "<ul><li>simpel, Verknüpfungen und interaktive Elemente enthalten</li><li>dynamsiche Wireframes, ohne Design + Inhalt</li></ul>"
+            ],
+            "guid": "yia)guJorh",
+            "note_model_uuid": "4749fc94-c590-11ee-b2c3-f2a0fc844426",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "Prototyp Qualitätsstufe High Fidelity",
+                "<ul><li>Detailliert, ggf. kaum noch zu unterscheiden vom finalen Produkt</li><li>Nicht nur Klickverhaltenm auch Inhalte+Design wichtig</li></ul>"
+            ],
+            "guid": "D<r&tKhmm&",
+            "note_model_uuid": "4749fc94-c590-11ee-b2c3-f2a0fc844426",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "Wie kann man Prototypen Umsetzen?",
+                "<ul><li>Klickdummys mit Adobe XD oder Figma</li><li>Klickdummys mit Invision oder Marvel</li><li>Native Prototypen</li></ul>"
+            ],
+            "guid": "deR+ZR;^72",
+            "note_model_uuid": "4749fc94-c590-11ee-b2c3-f2a0fc844426",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "Ergebnis: Klickdummys mit Adobe XD oder Figma&nbsp;",
+                "<div><ul><li>Fokus auf visuelle Effekte wie Scrolling oder Seitenübergänge</li></ul></div>"
+            ],
+            "guid": "EKB4qYx<2",
+            "note_model_uuid": "4749fc94-c590-11ee-b2c3-f2a0fc844426",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "Schwerpunkt: Klickdummys mit Adobe XD oder Figma&nbsp;",
+                "UI-Design"
+            ],
+            "guid": "m1n~$M!:%9",
+            "note_model_uuid": "4749fc94-c590-11ee-b2c3-f2a0fc844426",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "Wie erstellung von&nbsp;Klickdummys mit Invision oder Marvel<br>",
+                "<ul><li>Layouts in Programmen wie Adobe XD gestalten + importieren</li><li>Verknüpfung der Screens in Tools</li></ul>"
+            ],
+            "guid": "eZ2/]}/Rva",
+            "note_model_uuid": "4749fc94-c590-11ee-b2c3-f2a0fc844426",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "Erklärung Native Prototypen&nbsp;",
+                "<ul><li>Umsetzung in finaler Technologie</li></ul>"
+            ],
+            "guid": "JMH#rZQB{D",
+            "note_model_uuid": "4749fc94-c590-11ee-b2c3-f2a0fc844426",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "Schwerpunkt Native Prototypen&nbsp;",
+                "technische Umsetzbarkeit"
+            ],
+            "guid": "OT/j1=upjd",
+            "note_model_uuid": "4749fc94-c590-11ee-b2c3-f2a0fc844426",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "Wireframe vs Mock-Up vs Prototyp",
+                "<img src=\"paste-07a9cc54ddbd83457fc1058313f35cee768b1a07.jpg\">"
+            ],
+            "guid": "C+T*oTf;lT",
+            "note_model_uuid": "4749fc94-c590-11ee-b2c3-f2a0fc844426",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "Gestaltung einer Webseite Realisierung:",
+                "<ul><li>Implementierung</li><li>Testing</li><li>(Re)Launch</li></ul>"
+            ],
+            "guid": "L+VCL7_O%I",
+            "note_model_uuid": "4749fc94-c590-11ee-b2c3-f2a0fc844426",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "Webseite Implemetierung was muss gemacht werden",
+                "<ul><li>Frontend</li><li>Backend</li></ul>"
+            ],
+            "guid": "pyK9=W>n(N",
+            "note_model_uuid": "4749fc94-c590-11ee-b2c3-f2a0fc844426",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "Webseite Testing",
+                "<ul><li>Manuelle Test /QA, auch Usability-Tests)</li><li>Automaitisertes Testing</li></ul>"
+            ],
+            "guid": "d`)b2S[<0",
+            "note_model_uuid": "4749fc94-c590-11ee-b2c3-f2a0fc844426",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "Was sind Automatisierte Tests?",
+                "<ul><li>Unit-Tests</li><li>Integrations-Test</li><li>UI-Tests</li><li>End-to-End-Tests</li></ul>"
+            ],
+            "guid": "H9.@)!6oQC",
+            "note_model_uuid": "4749fc94-c590-11ee-b2c3-f2a0fc844426",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "Was macht man beim Launch",
+                "<ul><li>Veröffentlichen der Webseite</li><li>Idealerweise Wartung und Aktualisierung via Admin-Bereich</li></ul>"
+            ],
+            "guid": "b_B,U^T?wt",
+            "note_model_uuid": "4749fc94-c590-11ee-b2c3-f2a0fc844426",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "Wo kann man Webseiten veröffentlichen",
+                "<ul><li>Webspace</li><li>Webserver</li></ul>"
+            ],
+            "guid": "rEQE.>G[pM",
+            "note_model_uuid": "4749fc94-c590-11ee-b2c3-f2a0fc844426",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "Was ist das Problem bei der Warnehmung?",
+                "Informationsüberflutung -&gt; selektive Warnehmung"
+            ],
+            "guid": "5bCSH;TkL",
+            "note_model_uuid": "4749fc94-c590-11ee-b2c3-f2a0fc844426",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "Was ist die selektive Wahrnehmung?",
+                "<ul><li>Subjektiv relevante Infos werden herausgesucht</li><li>Basierend auf Erfahnungen, Bewertungen, Einstellugen</li></ul>"
+            ],
+            "guid": "ur,w4wxA}Q",
+            "note_model_uuid": "4749fc94-c590-11ee-b2c3-f2a0fc844426",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "Was macht die selektive Wahrnehmung",
+                "Es wird nach Informationen gesucht, wo sie vermutet werden"
+            ],
+            "guid": "2o2>ml0yC",
+            "note_model_uuid": "4749fc94-c590-11ee-b2c3-f2a0fc844426",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "Wo muss das Logo hin?",
+                "Oben Links"
+            ],
+            "guid": "l_<-$~<XW]",
+            "note_model_uuid": "4749fc94-c590-11ee-b2c3-f2a0fc844426",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "Wo muss der Warenkorb hin?",
+                "Rechts oben"
+            ],
+            "guid": "w8nh])4_-!",
+            "note_model_uuid": "4749fc94-c590-11ee-b2c3-f2a0fc844426",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "Wo muss das Suchfeld hin",
+                "oben mittig"
+            ],
+            "guid": "w,rX%rQrAY",
+            "note_model_uuid": "4749fc94-c590-11ee-b2c3-f2a0fc844426",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "Wie muss die Hauptnavigation gestaltet werden?",
+                "gesamte Breite, großes Teaserbild/Slider"
+            ],
+            "guid": "GL]fr33$R[",
+            "note_model_uuid": "4749fc94-c590-11ee-b2c3-f2a0fc844426",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "Was ist Chunking?",
+                "<ul><li>Informationen werden in Häppchen aufgenommen -&gt; Erkennung von Chunks</li></ul>"
+            ],
+            "guid": "s!y0%ej7{k",
+            "note_model_uuid": "4749fc94-c590-11ee-b2c3-f2a0fc844426",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "Was für eine Begrenzung gibt es bei Chunking",
+                "Nur sieben Objekte können mit einem Blick erfasst werden"
+            ],
+            "guid": "f?D`.p~dk_",
+            "note_model_uuid": "4749fc94-c590-11ee-b2c3-f2a0fc844426",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "Wie verwendet man Chunking auf Webseiten",
+                "<ul><li>Hauptnavigation enthält optimalerweise zwischen fünf und sieben Punkten</li><li>Textbeiträge in funf bis sieben Absätze gliedern</li></ul>"
+            ],
+            "guid": "LWWCsV_~AD",
+            "note_model_uuid": "4749fc94-c590-11ee-b2c3-f2a0fc844426",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "Wie kann man links auf Webseiten erstellen?",
+                "<ol><li>Element ID zuweisen</li><li>#id</li></ol>"
+            ],
+            "guid": "QFXVf=3<:#",
+            "note_model_uuid": "4749fc94-c590-11ee-b2c3-f2a0fc844426",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "Was ist das Reziprozität?",
+                "Prinzip der Gegenseitigkeit"
+            ],
+            "guid": "qnTFj*mXS-",
+            "note_model_uuid": "4749fc94-c590-11ee-b2c3-f2a0fc844426",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "Erklärung Prinzip der Gegenseitigkeit",
+                "<ul><li>Gefühl des \"In-Der-Schhuld-stehens\"&nbsp;</li><li>-&gt; Drang das Gleichgewicht wiederherzustellen</li></ul>"
+            ],
+            "guid": "uWT9-)GIO#",
+            "note_model_uuid": "4749fc94-c590-11ee-b2c3-f2a0fc844426",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "Beispiel Prinzip der Gegenseitigkeit",
+                "Vor eine Forderung (Kauf, Daten) Geschenk (Gutschein, Download) anbieten"
+            ],
+            "guid": ":L9u~j3ID",
+            "note_model_uuid": "4749fc94-c590-11ee-b2c3-f2a0fc844426",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "Was ist Verbindlichkeit und Konsistenz?",
+                "Mehrere Entscheidungen nacheinander werden meist konsistent und verbindlich getroffen"
+            ],
+            "guid": "B%>Kj/+Z4R",
+            "note_model_uuid": "4749fc94-c590-11ee-b2c3-f2a0fc844426",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "Beispiel Verbindlichkeit und Konsistenz?",
+                "Landingpage mit mehreren aufeinader aufbauenden Fragen"
+            ],
+            "guid": "lQBQn;q@u/",
+            "note_model_uuid": "4749fc94-c590-11ee-b2c3-f2a0fc844426",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "Was ist das Soziale Bewährtheit",
+                "Ausrichtung des Verhaltens am Verhalten der sozialen Umgebung"
+            ],
+            "guid": "zb#=X;X8zO",
+            "note_model_uuid": "4749fc94-c590-11ee-b2c3-f2a0fc844426",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "Beispiel Soziale Bewährtheit",
+                "<ul><li>Feedback</li><li>Meinungen</li><li>Bewertungen von Experten oder anderen Kunden</li></ul>"
+            ],
+            "guid": "t+H)1r7]=@",
+            "note_model_uuid": "4749fc94-c590-11ee-b2c3-f2a0fc844426",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "Wie funktioniert Autorität",
+                "<ul><li>Fachliche und überfachliche Autorität schafft Vertrauen</li></ul>"
+            ],
+            "guid": "sl.9b&|~[T",
+            "note_model_uuid": "4749fc94-c590-11ee-b2c3-f2a0fc844426",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "Beispiel Autorität",
+                "<ul><li>Fachvorträge</li><li>Publikationen</li></ul>"
+            ],
+            "guid": "Lue?:LM`:F",
+            "note_model_uuid": "4749fc94-c590-11ee-b2c3-f2a0fc844426",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "Wie funktioniert Sympathie",
+                "<ul><li>Vertrauen steigt mit sympathischer Wirkung</li></ul>"
+            ],
+            "guid": "Hgo+z^0NkN",
+            "note_model_uuid": "4749fc94-c590-11ee-b2c3-f2a0fc844426",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "Beispiel Sympathie",
+                "<ul><li>authentische Fotos statt glattpolierter Stock-Fotos</li></ul>"
+            ],
+            "guid": "IMU1KZxa0J",
+            "note_model_uuid": "4749fc94-c590-11ee-b2c3-f2a0fc844426",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "Wie funktioneirt Verknappung",
+                "<ul><li>Angebot nur noch heute</li><li>nur noch 4 auf Lager</li></ul>"
+            ],
+            "guid": "rIs,}hSK{R",
+            "note_model_uuid": "4749fc94-c590-11ee-b2c3-f2a0fc844426",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "Wie funktioniert der Human-centered design process?",
+                "<img src=\"paste-918890a024260aac457b151abfeb9a56e817a093.jpg\">"
+            ],
+            "guid": "PF6~PcGcx&",
+            "note_model_uuid": "4749fc94-c590-11ee-b2c3-f2a0fc844426",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "Was ist der Iterative Designprozess?",
+                "<ul><li>Designer fokussieren sich auf den Nutzer</li><li>Beziehen Nutzer in jueder Phase des Designprozesses mit ein</li></ul>"
+            ],
+            "guid": "wXM0b.t4Ci",
+            "note_model_uuid": "4749fc94-c590-11ee-b2c3-f2a0fc844426",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "Ziel Iterative Designprozess?",
+                "Schaffung einer optimalen User Experience"
+            ],
+            "guid": "kTb^7mo%V7",
+            "note_model_uuid": "4749fc94-c590-11ee-b2c3-f2a0fc844426",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "Was ist eine Benutzerschnittstelle",
+                "Schnittstelle zwischen Mensch und Maschine"
+            ],
+            "guid": "Kbn*d.Fl%p",
+            "note_model_uuid": "4749fc94-c590-11ee-b2c3-f2a0fc844426",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "Was ist eine Benutzerschnittstele bei Software Anwendungen?",
+                "Grafische Benutzeroberfläche"
+            ],
+            "guid": "MvAIYVr)$X",
+            "note_model_uuid": "4749fc94-c590-11ee-b2c3-f2a0fc844426",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "Was ist das UI Design?",
+                "Gestaltung der grafischen Benutzeroberfläche"
+            ],
+            "guid": "k@[]bCO6_v",
+            "note_model_uuid": "4749fc94-c590-11ee-b2c3-f2a0fc844426",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "Allgemine Richtlinien zum UI Design",
+                "<ul><li>Google Material Design</li><li>Apple Human Interface Guidelines</li></ul>"
+            ],
+            "guid": "wB/Z%9_C$)",
+            "note_model_uuid": "4749fc94-c590-11ee-b2c3-f2a0fc844426",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "Was macht gutes UX?",
+                "Befridigt individuelle Bedürfnisse des Nutzers"
+            ],
+            "guid": "c/^0A-|{#B",
+            "note_model_uuid": "4749fc94-c590-11ee-b2c3-f2a0fc844426",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "Qualitätsparameter von UX",
+                "<img src=\"paste-a2f791631a661a1c1f422a261566054c34bc1eee.jpg\">"
+            ],
+            "guid": "Q+c,[vww,V",
+            "note_model_uuid": "4749fc94-c590-11ee-b2c3-f2a0fc844426",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "Was versteht man unter Accessibility?",
+                "Uneingeschränkter Zugang für jeden Benutzer"
+            ],
+            "guid": "o**%7+{p)`",
+            "note_model_uuid": "4749fc94-c590-11ee-b2c3-f2a0fc844426",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "Was versteht man Unter Utility",
+                "BEreitstellung sämtlicher Funktionalitäten und Inhalte zur Erreichung der Nutzungsziele"
+            ],
+            "guid": "r$_qL5O<y<",
+            "note_model_uuid": "4749fc94-c590-11ee-b2c3-f2a0fc844426",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "Ziel Usability",
+                "Möglichst einfache und intuitive Benutzung&nbsp;"
+            ],
+            "guid": "LE}RL)8yK/",
+            "note_model_uuid": "4749fc94-c590-11ee-b2c3-f2a0fc844426",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "Wie kann man Usability messen?",
+                "Wie schnell und direkt konnte der Nutzer das Ziel erreichen"
+            ],
+            "guid": "N6K8@xe9%^",
+            "note_model_uuid": "4749fc94-c590-11ee-b2c3-f2a0fc844426",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "Was ist die Joy of use?",
+                "Subjektiv wahrgenommene Ästhetik und erzeugte Emotionen während der Nutzung"
+            ],
+            "guid": "fXBN&|F={Q",
+            "note_model_uuid": "4749fc94-c590-11ee-b2c3-f2a0fc844426",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "UX und Usability",
+                "<img src=\"paste-4e39e47804106a229eb7b9c4d596ad7aa5d118ea.jpg\">"
+            ],
+            "guid": "E2B(ojR0a[",
+            "note_model_uuid": "4749fc94-c590-11ee-b2c3-f2a0fc844426",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "Was ist das Gesetz der Ähnlichkeit?",
+                "Zusammengehörige Elemente werden durch Ähnlichkeiten erkannt"
+            ],
+            "guid": "KSL3IAL.<P",
+            "note_model_uuid": "4749fc94-c590-11ee-b2c3-f2a0fc844426",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "Wie kann man Ähnlichkeiten Ausrücken?",
+                "<ul><li>Farbe</li><li>Form</li><li>Textur</li><li>Position</li></ul>"
+            ],
+            "guid": "smJYiqb,aZ",
+            "note_model_uuid": "4749fc94-c590-11ee-b2c3-f2a0fc844426",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "Wie funktioniert das Gesetzt der Nähe?",
+                "Elemente mit geringem Abstand zueinander werden als zusammen-gehörig wahrgenommen"
+            ],
+            "guid": "cqeL7_:I4s",
+            "note_model_uuid": "4749fc94-c590-11ee-b2c3-f2a0fc844426",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "Für was ist das Gesetz der Nähe?",
+                "Zur Abbildung von strukturellen Zusammenhängen (Bild mit Text)"
+            ],
+            "guid": "uhXEyc[1r>",
+            "note_model_uuid": "4749fc94-c590-11ee-b2c3-f2a0fc844426",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "Was fürdert weißraum",
+                "Orientierung und Ordnung"
+            ],
+            "guid": "v?T?-r=5nW",
+            "note_model_uuid": "4749fc94-c590-11ee-b2c3-f2a0fc844426",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "Beispiel Gesetz der Nähe",
+                "<img src=\"paste-e3b53e86492e448b60f25f93407c2e4baa434492.jpg\">"
+            ],
+            "guid": "dI@%/zx*8[",
+            "note_model_uuid": "4749fc94-c590-11ee-b2c3-f2a0fc844426",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "Wie funktioniert das Gesetz der Prägnanz?",
+                "Menschliche Wahrnehmung bevorzugt Gestalten die sich von anderen durch bestimmte Mermale abheben"
+            ],
+            "guid": "xMNo;c*rj7",
+            "note_model_uuid": "4749fc94-c590-11ee-b2c3-f2a0fc844426",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "Gesetz der Prägnanz: Wie kann man ein Element hervorheben",
+                "Ein Zentrales Element, kann mittels prägnanter Gestaltung in den Fokus gerückt werden"
+            ],
+            "guid": "fn9#sv%x:D",
+            "note_model_uuid": "4749fc94-c590-11ee-b2c3-f2a0fc844426",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "Gesetz der Prägnanz Gestaltungsmittel",
+                "<ul><li>Farbe</li><li>Größe</li><li>Form</li></ul>"
+            ],
+            "guid": "rWa[fjKw<:",
+            "note_model_uuid": "4749fc94-c590-11ee-b2c3-f2a0fc844426",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "Gesetz der Geschlossenheit",
+                "Objekte werden möglichst als Einheit wahrgenommen, wobei einfache und bekannte Formen schneller identifiziert werden"
+            ],
+            "guid": "p>u%~lp6]n",
+            "note_model_uuid": "4749fc94-c590-11ee-b2c3-f2a0fc844426",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "Was ist beim Gesetz der Geschlossenheit nicht notwendig",
+                "Vollständige Geschlossenheit"
+            ],
+            "guid": "HYxoOxiE),",
+            "note_model_uuid": "4749fc94-c590-11ee-b2c3-f2a0fc844426",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "Gesetz der Geschlossenheit Häufige Anwendungen",
+                "<ul><li>Gliederung durch Farbflächen</li><li>Umrandung einer Schaltfläche mit Konturlinien</li></ul>"
+            ],
+            "guid": "z*AcndvEh4",
+            "note_model_uuid": "4749fc94-c590-11ee-b2c3-f2a0fc844426",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "Was ist RGB",
+                "additive Farbmischung"
+            ],
+            "guid": "D/wSvR$_Uy",
+            "note_model_uuid": "4749fc94-c590-11ee-b2c3-f2a0fc844426",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "HexadezimalCode RGB",
+                "<img src=\"paste-57953a1ac8126358a800e9a80aa30bc35f89644d.jpg\">"
+            ],
+            "guid": "bM+bxoAOM3",
+            "note_model_uuid": "4749fc94-c590-11ee-b2c3-f2a0fc844426",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "Probleme bei Farben",
+                "Bei ständigem Einsatz von Farbe, kann Farbe keine Hervorhebung mehr leisten"
+            ],
+            "guid": "2qTVTrf|I",
+            "note_model_uuid": "4749fc94-c590-11ee-b2c3-f2a0fc844426",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "Trend Farbreduktion",
+                "<ul><li>Hintergrund schwarz oder weißß</li><li>Vordergrund unbunte Farben</li></ul><div>Auge des Betrachters wird auf die wenige Farbe gelenkt</div>"
+            ],
+            "guid": "n0c+fRq|+d",
+            "note_model_uuid": "4749fc94-c590-11ee-b2c3-f2a0fc844426",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "Farbleitsystem",
+                "<ul><li>Farben können leitende Funktion übernehmen</li><li>Nutzer lernen Bedeutung der Farben und erkennen anhand der Farbe die aktive Sparte</li></ul>"
+            ],
+            "guid": "i3Nk5{accg",
+            "note_model_uuid": "4749fc94-c590-11ee-b2c3-f2a0fc844426",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "Farbleitsystem Beispiel",
+                "<img src=\"paste-758321b9bceae1e821f8b926222f207bc70d8302.jpg\">"
+            ],
+            "guid": "HUET5u`eD;",
+            "note_model_uuid": "4749fc94-c590-11ee-b2c3-f2a0fc844426",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "Was macht der Farbkontrast?",
+                "Kontraste sorgen für Spannung und Aufmerksamkeit"
+            ],
+            "guid": "ya{Lb6lC3Y",
+            "note_model_uuid": "4749fc94-c590-11ee-b2c3-f2a0fc844426",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "Farbkontraste",
+                "<ul><li>Farbe an sich</li><li>Komplementär</li><li>Hell-Dunkel</li><li>Kalt-Warm</li><li>Quantität</li><li>Qualität</li><li>Simultan</li><li>Bunt-Unbunt</li></ul>"
+            ],
+            "guid": "d[rI^hDM=1",
+            "note_model_uuid": "4749fc94-c590-11ee-b2c3-f2a0fc844426",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "Farbkontrast Beispiel",
+                "<img src=\"paste-a56e49e35f006a64959bb989bf5f04f265f8d89b.jpg\">"
+            ],
+            "guid": "H73A<yjq(0",
+            "note_model_uuid": "4749fc94-c590-11ee-b2c3-f2a0fc844426",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "Was ist die Typografie",
+                "Lehre von der Schrift, Schriftgestaltung und Lesbarkeit"
+            ],
+            "guid": "Nvyn.v$)y0",
+            "note_model_uuid": "4749fc94-c590-11ee-b2c3-f2a0fc844426",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "Zu was dient Typografie?",
+                "Es diemt dem Leser, nicht dem Schreiber<br>-&gt; Sprache für den Leser sichtbar und greifbar machen"
+            ],
+            "guid": "rSMgj]~aDI",
+            "note_model_uuid": "4749fc94-c590-11ee-b2c3-f2a0fc844426",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "Was ist Gute Typografie",
+                "<ul><li>Leserlich</li><li>Ästehtik und Wiedererkennung</li><li>Emotionale Wahrnehmung (Schrift-Ton)</li></ul>"
+            ],
+            "guid": "A;fT),S0m>",
+            "note_model_uuid": "4749fc94-c590-11ee-b2c3-f2a0fc844426",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "Typografie Leserlichkeit",
+                "<ul><li>Sicherstellung durch Kontrast, Größe, Schriftart</li><li>Überprüfung 200-400 Wörter /Minute \"normal\"</li></ul>"
+            ],
+            "guid": "K,zYhOqphb",
+            "note_model_uuid": "4749fc94-c590-11ee-b2c3-f2a0fc844426",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "Best Practice Schriftart",
+                "<ul><li>Bei kleieren Schriftgrößen keine Serifenschriften</li><li>Bewährt: Kombination von zwei Schriftarten</li></ul>"
+            ],
+            "guid": "y)+*ZY$a0u",
+            "note_model_uuid": "4749fc94-c590-11ee-b2c3-f2a0fc844426",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "Kombination von zwei Schriftarten",
+                "Eine mit Serifen, eine ohne Serifen -&gt; eine für Überschrifen, eine für Fließtext"
+            ],
+            "guid": "v?u1Afi*}V",
+            "note_model_uuid": "4749fc94-c590-11ee-b2c3-f2a0fc844426",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "Was sind Schriftschnitte?",
+                "Variationen einer Schriftart"
+            ],
+            "guid": "EyKK0[/b|]",
+            "note_model_uuid": "4749fc94-c590-11ee-b2c3-f2a0fc844426",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "Schriftschnitte Variationen",
+                "<ul><li>Schriftstärke</li><li>Schriftbreite</li><li>Schriftlage</li></ul>"
+            ],
+            "guid": "luhkjLe0<z",
+            "note_model_uuid": "4749fc94-c590-11ee-b2c3-f2a0fc844426",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "Was bilden alle Schriftschnitte",
+                "eine Schriftfamilie"
+            ],
+            "guid": "eR)~g%D,RT",
+            "note_model_uuid": "4749fc94-c590-11ee-b2c3-f2a0fc844426",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "Best Practice Schriftschnitte",
+                "Kombination verschiedener Schriftschnitte zur Hervorhebung oft besser als Kombination von zwei Schriftarten"
+            ],
+            "guid": "unPW2emanN",
+            "note_model_uuid": "4749fc94-c590-11ee-b2c3-f2a0fc844426",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "Webfonts Früher?",
+                "Websichere Schriften = System Schriftarten"
+            ],
+            "guid": "o9EB;I~qDW",
+            "note_model_uuid": "4749fc94-c590-11ee-b2c3-f2a0fc844426",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "Heute Webfonts",
+                "<ul><li>Schriftarten müssen nicht auf System des Nutzers installiert sein</li></ul>"
+            ],
+            "guid": "hI1ArPLV1y",
+            "note_model_uuid": "4749fc94-c590-11ee-b2c3-f2a0fc844426",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "Best practice Überschriften",
+                "Meist nur h1 bis h3"
+            ],
+            "guid": "E}N^876R^.",
+            "note_model_uuid": "4749fc94-c590-11ee-b2c3-f2a0fc844426",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "Best practice Absätze",
+                "<ul><li>klare Trennung voneinander</li><li>mehr Abstand meist gut</li></ul>"
+            ],
+            "guid": "H5]hvLX|4!",
+            "note_model_uuid": "4749fc94-c590-11ee-b2c3-f2a0fc844426",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "Best Practice Absätze Ausrichtung",
+                "<ul><li>Linksbündiger Flattersatz</li><li>Zentrierung für kurze Highlights möglich</li><li>Kein Blocksatz (variable Screen- und Fenstergrößen)</li></ul>"
+            ],
+            "guid": "D(EO<r<M!v",
+            "note_model_uuid": "4749fc94-c590-11ee-b2c3-f2a0fc844426",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "Was ist das Layout der Seite?",
+                "<ul><li>Hält einzelne Elemente und unterschiedliche Bereiche zusammen</li><li>Gibt den Elementen Struktur und Ordnung</li></ul><div><br></div>"
+            ],
+            "guid": "uxZQB9=W{~",
+            "note_model_uuid": "4749fc94-c590-11ee-b2c3-f2a0fc844426",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "Layout Seite Beispiel",
+                "<img src=\"paste-c564954421fd807cde8507255992f41aa61ba70b.jpg\">"
+            ],
+            "guid": "brOvUoe@8-",
+            "note_model_uuid": "4749fc94-c590-11ee-b2c3-f2a0fc844426",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "Header Bereich Eigenschaften",
+                "<ul><li>Ganz oben</li><li>prominent</li><li>immer ohne Scrollen Sichtbar</li><li>Erster Eindruck (Seriosität)</li><li>Orientierung</li><li>Struktur</li></ul>"
+            ],
+            "guid": "K/qOw4BT2u",
+            "note_model_uuid": "4749fc94-c590-11ee-b2c3-f2a0fc844426",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "Was enthält der Header Bereich?",
+                "<ul><li>Logo</li><li>Hauptmenü</li><li>Meta-Navigation</li><li>Suche</li></ul>"
+            ],
+            "guid": "w(=D;-Jr3W",
+            "note_model_uuid": "4749fc94-c590-11ee-b2c3-f2a0fc844426",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "Header Konventionen",
+                "<ul><li>Logo Links</li><li>Sucher rechts-mittig</li><li>Warenkorb rechts</li></ul>"
+            ],
+            "guid": "g-d,t1i)#S",
+            "note_model_uuid": "4749fc94-c590-11ee-b2c3-f2a0fc844426",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "Wie kann sich der Header verhalten?",
+                "<ul><li>Sticky</li><li>Half Sticky</li><li>Nicht sticky</li></ul>"
+            ],
+            "guid": "RjtmFpAu*I",
+            "note_model_uuid": "4749fc94-c590-11ee-b2c3-f2a0fc844426",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "Was bedeutet sticky?",
+                "bleibt beim Scrolen stehen"
+            ],
+            "guid": "y]>CgO.gWe",
+            "note_model_uuid": "4749fc94-c590-11ee-b2c3-f2a0fc844426",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "Was bedeutet Half-Sticky?",
+                "schrumpft und bleibt verkleinert stehen"
+            ],
+            "guid": "t7,5kbC7kE",
+            "note_model_uuid": "4749fc94-c590-11ee-b2c3-f2a0fc844426",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "Was bedeutet nicht sticky",
+                "scrollt weg"
+            ],
+            "guid": "H&ro~QL#)u",
+            "note_model_uuid": "4749fc94-c590-11ee-b2c3-f2a0fc844426",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "Besipiele Inhalts Bereich",
+                "<img src=\"paste-823cdac6bfd8260cae5eb5d0f548604517474e01.jpg\">"
+            ],
+            "guid": "u<O@V6=KOw",
+            "note_model_uuid": "4749fc94-c590-11ee-b2c3-f2a0fc844426",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "Was steht im Footer-Bereich?",
+                "<ul><li>Wichtige Verlinkungen</li><li>Nicht so prominent platziert wie die Elemente im Header</li></ul>"
+            ],
+            "guid": "j;|WT#kO6j",
+            "note_model_uuid": "4749fc94-c590-11ee-b2c3-f2a0fc844426",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "Beispiele Footer Bereich",
+                "<ul><li>AGB</li><li>FAQ</li><li>Impressum</li><li>Social Media Profile</li></ul>"
+            ],
+            "guid": "NzW7xKY/@Y",
+            "note_model_uuid": "4749fc94-c590-11ee-b2c3-f2a0fc844426",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "Was bringen Raster/Grid?",
+                "<ul><li>Hilfestellung für Platzierung von Elementen</li><li>Waagrechte und v.a. senkrechte Linien, an deren die Elemente /Bereiche angelegt werden</li><li>Absichtliche EInschränkung für ordentliches, strukturiertes und einheitliches Ergebnis</li></ul>"
+            ],
+            "guid": "PXR89F[O<L",
+            "note_model_uuid": "4749fc94-c590-11ee-b2c3-f2a0fc844426",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "Was sorgen Gestaltungsraster für?",
+                "<ul><li>Einheitliche Strukturen und Wiedererkennbarkeit</li><li>Sinnvolle Anordnung der Elemente und Bereiche</li><li>Flexibilität</li></ul>"
+            ],
+            "guid": "gsw:{!>6?]",
+            "note_model_uuid": "4749fc94-c590-11ee-b2c3-f2a0fc844426",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "Raster Beispiel",
+                "<img src=\"paste-8e50c4a0c792d5623973e55bfcd2a0c28ca19e7f.jpg\">"
+            ],
+            "guid": "N]C-^ckvzl",
+            "note_model_uuid": "4749fc94-c590-11ee-b2c3-f2a0fc844426",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "Ab wann sollten Gestaltungsraster beachtet werden?",
+                "Direkt bei Wireframes und Mock-ups"
+            ],
+            "guid": "or:*k{c~Dp",
+            "note_model_uuid": "4749fc94-c590-11ee-b2c3-f2a0fc844426",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "Von was hält die Wahl des Grids ab?",
+                "Art und Menge der Inhalte"
+            ],
+            "guid": "FNRT{=*mAL",
+            "note_model_uuid": "4749fc94-c590-11ee-b2c3-f2a0fc844426",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "Typische Gesamtbreite eines Grids für Desktop?",
+                "<ul><li>960px</li><li>1200px</li><li>1240px</li></ul>"
+            ],
+            "guid": "DaJ$;~]usd",
+            "note_model_uuid": "4749fc94-c590-11ee-b2c3-f2a0fc844426",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "Wie funktionieren Spalten in Grids?",
+                "<ul><li>Alle Spalten des Grids gleich breit</li><li>Anzahl der Spalten zu Beginn festgelegt</li><li>Je mehr Spalten, desto größer die Flexibilität</li></ul>"
+            ],
+            "guid": "rQmVLK<r5;",
+            "note_model_uuid": "4749fc94-c590-11ee-b2c3-f2a0fc844426",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "Welche Anzahl sind normal für Grid Spalten?",
+                "Eine gerade Anzahl (6,8,12,24)"
+            ],
+            "guid": "g4p]D!Gs]^",
+            "note_model_uuid": "4749fc94-c590-11ee-b2c3-f2a0fc844426",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "Wie viele Spalten werden meist Verwendet",
+                "12-Spalten-Grids"
+            ],
+            "guid": "lsX<4=S>/*",
+            "note_model_uuid": "4749fc94-c590-11ee-b2c3-f2a0fc844426",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "Beispiel Möglichkeiten ein 12 Spalten Grid anzuordnen",
+                "<ul><li>12</li><li>2-10</li><li>6-6</li><li>4-4-4</li><li>3-3-3-3</li></ul>"
+            ],
+            "guid": "Ot?zZ]dg:P",
+            "note_model_uuid": "4749fc94-c590-11ee-b2c3-f2a0fc844426",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "Gestaltungsraster Abstands-Maß",
+                "<ul><li>Zwischen den Spalten liegen Abstände</li><li>Abstand muss definiert werden</li></ul>"
+            ],
+            "guid": "LM~Fq:+h3=",
+            "note_model_uuid": "4749fc94-c590-11ee-b2c3-f2a0fc844426",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "Wie heißen die Spalten zwischen Abstände?",
+                "Gutter"
+            ],
+            "guid": "xNQjI%{dxQ",
+            "note_model_uuid": "4749fc94-c590-11ee-b2c3-f2a0fc844426",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "Wie groß sind die Gutter",
+                "<ul><li>zwischen 10 und 20px</li><li>sind immer gleich groß</li></ul>"
+            ],
+            "guid": "qY__Pns_l1",
+            "note_model_uuid": "4749fc94-c590-11ee-b2c3-f2a0fc844426",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "Was bringen Gutter?",
+                "Grenzt Elemente später deutlich und einheitlich voneinander ab"
+            ],
+            "guid": "K7W81J[l/A",
+            "note_model_uuid": "4749fc94-c590-11ee-b2c3-f2a0fc844426",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "Was verhindern Barrieren",
+                "Ungehinderten Zugang ins Internet für Menschen mit Einschränkungen"
+            ],
+            "guid": "Ohl~irsKi5",
+            "note_model_uuid": "4749fc94-c590-11ee-b2c3-f2a0fc844426",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "Was für Einschränkungen gibt es?",
+                "<ul><li>Permanent</li><li>Temporär</li><li>Situativ</li></ul>"
+            ],
+            "guid": "E5lk&@-#F8",
+            "note_model_uuid": "4749fc94-c590-11ee-b2c3-f2a0fc844426",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "Beispiel EInschränkungen Permanent",
+                "Behinderung"
+            ],
+            "guid": "D3DXdQ[BN+",
+            "note_model_uuid": "4749fc94-c590-11ee-b2c3-f2a0fc844426",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "Beispiel Einschränkung Temporär",
+                "<ul><li>Erkankung</li><li>Verletzung</li></ul>"
+            ],
+            "guid": "J`Rkeg_qF~",
+            "note_model_uuid": "4749fc94-c590-11ee-b2c3-f2a0fc844426",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "Beispiel Einschränkung Situativ",
+                "<ul><li>laute Umgebung</li><li>beim mobilen Arbeiten</li></ul>"
+            ],
+            "guid": "Pen?yMD_OK",
+            "note_model_uuid": "4749fc94-c590-11ee-b2c3-f2a0fc844426",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "Definition Barrierefreies Webdesign",
+                "Unabhängig von der körperlichen, mentalen oder technischen Situatuation müssen Funktionen und Informationen erreichbar sein"
+            ],
+            "guid": "dS~bdxuOf_",
+            "note_model_uuid": "4749fc94-c590-11ee-b2c3-f2a0fc844426",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "Wo beginnt Berrierefreies Webdesign?",
+                "Bei der Konzeption"
+            ],
+            "guid": "M%UT34S#Z&",
+            "note_model_uuid": "4749fc94-c590-11ee-b2c3-f2a0fc844426",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "Beispiele EInschränkungen",
+                "<img src=\"paste-b81f594d33f25c22255d42a40fae599c2fe1d324.jpg\">"
+            ],
+            "guid": "o{SlT]&511",
+            "note_model_uuid": "4749fc94-c590-11ee-b2c3-f2a0fc844426",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "Was für Barrieren gibt es?",
+                "<ul><li>Visuell</li><li>Akustisch</li><li>Motorisch</li><li>Kognitiv</li></ul>"
+            ],
+            "guid": "E6jm_*%Gb-",
+            "note_model_uuid": "4749fc94-c590-11ee-b2c3-f2a0fc844426",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "Visuelle Barrieren",
+                "<ul><li>Mangelhafte Farbkontraste</li><li>Zu kleine Schrift</li><li>Visuell versteckte Inhaltsbereiche</li></ul>"
+            ],
+            "guid": "f8Qkqxit/e",
+            "note_model_uuid": "4749fc94-c590-11ee-b2c3-f2a0fc844426",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "Akustische Barrieren",
+                "<ul><li>Videos ohne Untertitel</li><li>Tonaufnahmen ohne Erläuterung</li><li>Laute Umgebung</li></ul>"
+            ],
+            "guid": "ylK2F<Vk+[",
+            "note_model_uuid": "4749fc94-c590-11ee-b2c3-f2a0fc844426",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "Motorische Barrieren",
+                "<ul><li>Bedienung mit Tastatur nicht /nur eingeschränkt möglich</li><li>Fokus nicht sichtbar</li></ul>"
+            ],
+            "guid": "eX.Q&HjB[7",
+            "note_model_uuid": "4749fc94-c590-11ee-b2c3-f2a0fc844426",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "Kognitive Barrieren",
+                "<ul><li>Fremde Sprachen</li><li>Unnötig schwierige Sprache (Fachbegriffe)</li><li>Nicht intuitive Struktur (Navigation)</li></ul>"
+            ],
+            "guid": "v_^3$[My{K",
+            "note_model_uuid": "4749fc94-c590-11ee-b2c3-f2a0fc844426",
+            "tags": []
+        }
+    ],
+    "reviewLimit": null,
+    "reviewLimitToday": null
+}
