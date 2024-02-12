@@ -314,7 +314,7 @@
             "__type__": "Note",
             "fields": [
                 "Wie verbreitet sich das Internet?",
-                "Das Internet verbreitet sich über die USA hinaus durch die Nutzung des NEtwerks von Univeritäten zum Wissensaustausch und für Forschungszwecke"
+                "Das Internet verbreitet sich über die USA hinaus durch die Nutzung des Netzwerks von Universitäten zum Wissensaustausch und für Forschungszwecke"
             ],
             "guid": "z,!cx8gTdF",
             "note_model_uuid": "4749fc94-c590-11ee-b2c3-f2a0fc844426",
@@ -2214,7 +2214,7 @@
             "__type__": "Note",
             "fields": [
                 "Wie funktioniert das Adaptive Layout?",
-                "<ul><li>Ausgabegeräte stehen im Vordergrund</li><li>Erstellung von starren Layouts (meist mit Pixelwerten) für wenige exakt definierte Viewports</li><li>Via Media Querries wird mittels Breakpoints auf Layout für jeweilige Aiflösung verwiesen</li></ul>"
+                "<ul><li>Ausgabegeräte stehen im Vordergrund</li><li>Erstellung von starren Layouts (meist mit Pixel werten) für wenige exakt definierte Viewports</li><li>Via Media Querries wird mittels Breakpoints auf Layout für jeweilige Auflösung verwiesen</li></ul>"
             ],
             "guid": "D1mAu,!Dk9",
             "note_model_uuid": "4749fc94-c590-11ee-b2c3-f2a0fc844426",
@@ -2254,7 +2254,7 @@
             "__type__": "Note",
             "fields": [
                 "Responsive&nbsp;",
-                "= reagierend<br><ul><li>Webseite passt sich felxibel an verschiedene Größen an</li><li>gute Bedienbarkeit auf jedem Gerät und in jeder EInstellung</li></ul>"
+                "= reagierend<br><ul><li>Webseite passt sich flexibel an verschiedene Größen an</li><li>gute Bedienbarkeit auf jedem Gerät und in jeder Einstellung</li></ul>"
             ],
             "guid": "wg7xSYz[?e",
             "note_model_uuid": "4749fc94-c590-11ee-b2c3-f2a0fc844426",
@@ -2343,7 +2343,7 @@
         {
             "__type__": "Note",
             "fields": [
-                "Responsive Layout: Bildgröße je naach Displaygröße",
+                "Responsive Layout: Bildgröße je nach Displaygröße",
                 "<ul><li>Server sendet Bild immer in größter Auflösung&nbsp;</li></ul>"
             ],
             "guid": "u)V:5#AAd=",
@@ -2373,7 +2373,7 @@
         {
             "__type__": "Note",
             "fields": [
-                "Wie funktioniert der FLow Layout?",
+                "Wie funktioniert das Flow Layout?",
                 "<ul><li>Elemente werden gemäß ihrer Reihenfolge im HTML-Dokument positioniert</li><li>Inline-Elemente von links nach rechts</li><li>Blockelemente untereinander gestapelt</li></ul>"
             ],
             "guid": "BWa$?WOn2t",
@@ -2383,7 +2383,7 @@
         {
             "__type__": "Note",
             "fields": [
-                "Vorteile FLow Layout",
+                "Vorteile Flow Layout",
                 "Gut für einfache Strukturen"
             ],
             "guid": "wO#+srktiZ",
@@ -2824,7 +2824,7 @@
             "__type__": "Note",
             "fields": [
                 "Was für CMS Systeme gibt es?",
-                "<ul><li>WordPRess</li><li>Joomla</li></ul>"
+                "<ul><li>Wordpress</li><li>Joomla</li></ul>"
             ],
             "guid": "NmNx9{+28C",
             "note_model_uuid": "4749fc94-c590-11ee-b2c3-f2a0fc844426",
@@ -2853,8 +2853,8 @@
         {
             "__type__": "Note",
             "fields": [
-                "Was für Framework und SPrachen fürs Backend gibt es?",
-                "<ul><li>PHO</li><li>Node.js</li><li>ASP.NET</li></ul>"
+                "Was für Frameworks und Sprachen fürs Backend gibt es?",
+                "<ul><li>PHP</li><li>Node.js</li><li>ASP.NET</li></ul>"
             ],
             "guid": "Pg.mTz8AYj",
             "note_model_uuid": "4749fc94-c590-11ee-b2c3-f2a0fc844426",
@@ -2953,7 +2953,7 @@
         {
             "__type__": "Note",
             "fields": [
-                "WIe wird die BEschreibung der Wirkung gemacht?",
+                "Wie wird die Beschreibung der Wirkung gemacht?",
                 "Moodboard"
             ],
             "guid": "IU7iOtQ-TN",
@@ -2993,7 +2993,7 @@
         {
             "__type__": "Note",
             "fields": [
-                "Ablaufg eines Gestaltungsprozesses",
+                "Ablauf eines Gestaltungsprozesses",
                 "<ul><li>Skizze</li><li>Moodboard</li><li>Wireframes</li><li>Styletile/Guide</li><li>Mock-uos</li><li>Prototyp</li></ul>"
             ],
             "guid": "c=h[]5ym&9",
@@ -4423,7 +4423,7 @@
         {
             "__type__": "Note",
             "fields": [
-                "Beispiel EInschränkungen Permanent",
+                "Beispiel Einschränkungen Permanent",
                 "Behinderung"
             ],
             "guid": "D3DXdQ[BN+",
@@ -4473,7 +4473,7 @@
         {
             "__type__": "Note",
             "fields": [
-                "Beispiele EInschränkungen",
+                "Beispiele Einschränkungen",
                 "<img src=\"paste-b81f594d33f25c22255d42a40fae599c2fe1d324.jpg\">"
             ],
             "guid": "o{SlT]&511",
